@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        CampusIQ | Bannari Amman Institute of Technology
+    </title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+
+<body>
+
+
+<!-- ======================================================
+     LOGIN PAGE
+====================================================== -->
+
+<div id="loginPage" class="page active">
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="background-glow glow-three"></div>
+
+
+    <main class="login-container">
+
+        <div class="college-name">
+            BANNARI AMMAN INSTITUTE OF TECHNOLOGY
+        </div>
+
+
+        <div class="college-icon">
+            🎓
+        </div>
+
+
+        <h1 class="campus-logo">
+            Campus<span>IQ</span>
+        </h1>
+
+
+        <p class="login-tagline">
+            Your Intelligent Campus Companion
+        </p>
+
+
+        <p class="login-description">
+            Get quick and reliable answers to your
+            campus-related questions in one place.
+        </p>
+
+
+        <div class="login-card">
+
+            <label for="emailInput">
+                Official College Email
+            </label>
+
+
+            <div class="email-wrapper">
+
+                <span class="input-icon">
+                    ✉
+                </span>
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="yourname@bitsathy.ac.in"
+                    autocomplete="email"
+                >
+
+            </div>
+
+
+            <div id="loginError"
+                 class="login-error">
+            </div>
+
+
+            <button
+                id="loginButton"
+                class="primary-button">
+
+                <span>
+                    Enter CampusIQ
+                </span>
+
+                <span class="button-arrow">
+                    →
+                </span>
+
+            </button>
+
+
+            <p class="login-note">
+                🔒 Access restricted to official
+                <strong>@bitsathy.ac.in</strong>
+                accounts
+            </p>
+
+        </div>
+
+
+        <div class="login-footer">
+
+            © 2026 CampusIQ
+
+            <span>•</span>
+
+            Bannari Amman Institute of Technology
+
+        </div>
+
+    </main>
+
+</div>
+
+
+
+<!-- ======================================================
+     WELCOME PAGE
+====================================================== -->
+
+<div id="welcomePage"
+     class="page">
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+
+    <div class="welcome-container">
+
+        <div class="welcome-logo">
+            ✨
+        </div>
+
+
+        <p class="welcome-small">
+            CAMPUSIQ
+        </p>
+
+
+        <!-- ONLY WELCOME BACK -->
+        <h1>
+            Welcome back!
+        </h1>
+
+
+        <p class="welcome-description">
+            Your campus information is just a
+            conversation away.
+        </p>
+
+
+        <button
+            id="enterAppButton"
+            class="primary-button welcome-button">
+
+            <span>
+                Enter CampusIQ
+            </span>
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- ======================================================
+     MAIN APPLICATION
+====================================================== -->
+
+<div id="appPage"
+     class="application-page">
+
+
+    <!-- ==================================================
+         SIDEBAR
+    ================================================== -->
+
+    <aside id="sidebar"
+           class="sidebar">
+
+
+        <div class="sidebar-top">
+
+
+            <!-- BRAND -->
+
+            <div class="sidebar-brand">
+
+                <div class="sidebar-brand-icon">
+                    🎓
+                </div>
+
+
+                <div>
+
+                    <div class="sidebar-app-name">
+                        Campus<span>IQ</span>
+                    </div>
+
+
+                    <div class="sidebar-college">
+                        BANNARI AMMAN INSTITUTE
+                        OF TECHNOLOGY
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- NEW CHAT -->
+
+            <button
+                id="newChatButton"
+                class="new-chat-button">
+
+                <span class="new-chat-icon">
+                    +
+                </span>
+
+                <span>
+                    New Chat
+                </span>
+
+            </button>
+
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="sidebar-navigation">
+
+                <button
+                    id="historyButton"
+                    class="sidebar-nav-button">
+
+                    <span>
+                        ◷
+                    </span>
+
+                    <span>
+                        History
+                    </span>
+
+                </button>
+
+            </nav>
+
+
+
+            <!-- USER -->
+
+            <div class="sidebar-user">
+
+                <div
+                    class="user-avatar"
+                    id="userAvatar">
+
+                    U
+
+                </div>
+
+
+                <div class="user-details">
+
+                    <div
+                        class="user-name"
+                        id="sidebarUserName">
+
+                        User
+
+                    </div>
+
+
+                    <div
+                        class="user-email"
+                        id="sidebarUserEmail">
+
+                        user@bitsathy.ac.in
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- LOGOUT -->
+
+        <div class="sidebar-bottom">
+
+            <button
+                id="logoutButton"
+                class="logout-button">
+
+                <span>
+                    ↪
+                </span>
+
+                <span>
+                    Logout
+                </span>
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ==================================================
+         MAIN CONTENT
+    ================================================== -->
+
+    <main class="main-content">
+
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <button
+                class="mobile-menu-button"
+                id="mobileMenuButton">
+
+                ☰
+
+            </button>
+
+
+            <div class="topbar-brand">
+
+                <div class="topbar-icon">
+                    ✦
+                </div>
+
+
+                <div>
+
+                    <div class="topbar-title">
+                        CampusIQ
+                    </div>
+
+
+                    <div class="topbar-subtitle">
+                        Intelligent Campus Assistant
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="topbar-status">
+
+                <span class="status-dot"></span>
+
+                Online
+
+            </div>
+
+        </header>
+
+
+
+        <!-- CHAT AREA -->
+
+        <section
+            id="chatArea"
+            class="chat-area">
+
+
+            <!-- EMPTY CHAT -->
+
+            <div
+                id="emptyChat"
+                class="empty-chat">
+
+                <div class="empty-chat-icon">
+                    🧠
+                </div>
+
+
+                <h1>
+                    How can I help you?
+                </h1>
+
+
+                <p>
+                    Ask anything about
+                    Bannari Amman Institute of Technology.
+                </p>
+
+
+
+                <!-- SUGGESTIONS -->
+
+                <div class="suggestions">
+
+
+                    <button
+                        class="suggestion-card"
+                        data-question="What are the academic regulations?">
+
+                        <span class="suggestion-icon">
+                            📚
+                        </span>
+
+                        <span>
+                            Academic Information
+                        </span>
+
+                    </button>
+
+
+
+                    <button
+                        class="suggestion-card"
+                        data-question="When is the examination fee deadline?">
+
+                        <span class="suggestion-icon">
+                            📝
+                        </span>
+
+                        <span>
+                            Examination & Fees
+                        </span>
+
+                    </button>
+
+
+
+                    <button
+                        class="suggestion-card"
+                        data-question="What are the hostel rules?">
+
+                        <span class="suggestion-icon">
+                            🏠
+                        </span>
+
+                        <span>
+                            Hostel Information
+                        </span>
+
+                    </button>
+
+
+
+                    <button
+                        class="suggestion-card"
+                        data-question="How can I contact the placement cell?">
+
+                        <span class="suggestion-icon">
+                            💼
+                        </span>
+
+                        <span>
+                            Placement
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MESSAGES -->
+
+            <div
+                id="messagesContainer"
+                class="messages-container">
+            </div>
+
+        </section>
+
+
+
+        <!-- CHAT INPUT -->
+
+        <div class="chat-input-area">
+
+            <div class="chat-input-container">
+
+                <textarea
+                    id="chatInput"
+                    rows="1"
+                    placeholder="Ask CampusIQ anything..."
+                ></textarea>
+
+
+                <button
+                    id="sendButton"
+                    class="send-button">
+
+                    ↑
+
+                </button>
+
+            </div>
+
+
+            <div class="input-disclaimer">
+
+                CampusIQ provides information based on
+                the official college knowledge base.
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         HISTORY PANEL
+    ================================================== -->
+
+    <div
+        id="historyOverlay"
+        class="overlay hidden">
+
+        <div class="history-panel">
+
+
+            <div class="history-header">
+
+                <div>
+
+                    <h2>
+                        Chat History
+                    </h2>
+
+                    <p>
+                        Conversations from the last 15 days
+                    </p>
+
+                </div>
+
+
+                <button
+                    id="closeHistory"
+                    class="close-button">
+
+                    ×
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="historyList"
+                class="history-list">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         LOGOUT MODAL
+    ================================================== -->
+
+    <div
+        id="logoutModal"
+        class="modal-overlay hidden">
+
+        <div class="modal">
+
+            <div class="modal-icon">
+                🚪
+            </div>
+
+
+            <h2>
+                Logout from CampusIQ?
+            </h2>
+
+
+            <p>
+                Are you sure you want to end your
+                current session?
+            </p>
+
+
+            <div class="modal-buttons">
+
+                <button
+                    id="cancelLogout"
+                    class="secondary-button">
+
+                    Stay Logged In
+
+                </button>
+
+
+                <button
+                    id="confirmLogout"
+                    class="danger-button">
+
+                    Logout
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         THANK YOU MODAL
+    ================================================== -->
+
+    <div
+        id="thankYouModal"
+        class="modal-overlay hidden">
+
+        <div class="modal thank-you-modal">
+
+            <div class="thank-you-icon">
+                ✨
+            </div>
+
+
+            <h2>
+                Thank You!
+            </h2>
+
+
+            <p>
+                Thank you for using
+                <strong>CampusIQ</strong>.
+            </p>
+
+
+            <p class="small-text">
+                You have been safely logged out.
+            </p>
+
+
+            <button
+                id="continueButton"
+                class="primary-button">
+
+                Continue
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MOBILE SIDEBAR OVERLAY -->
+
+    <div
+        id="sidebarOverlay"
+        class="sidebar-overlay">
+    </div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

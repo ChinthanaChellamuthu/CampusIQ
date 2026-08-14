@@ -1,0 +1,3229 @@
+[
+    {
+        "name": "Dr Chelladurai V",
+        "designation": "Head",
+        "department": "Agricultural Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chelladurai-v/#agricultural-engineering"
+    },
+    {
+        "name": "Dr Uvaraja V C",
+        "designation": "Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/uvaraja-v-c/#agricultural-engineering"
+    },
+    {
+        "name": "Dr Vasudevan M",
+        "designation": "Associate Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vasudevan-m/#agricultural-engineering"
+    },
+    {
+        "name": "Dr Vinoth Kumar J",
+        "designation": "Assistant Professor Level III",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vinoth-kumar-j/#agricultural-engineering"
+    },
+    {
+        "name": "Dr Praveen Kumar D",
+        "designation": "Assistant Professor Level II",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/praveen-kumar-d/#agricultural-engineering"
+    },
+    {
+        "name": "Prof. Ananthi D",
+        "designation": "Assistant Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ananthi-d/#agricultural-engineering"
+    },
+    {
+        "name": "Prof. Muthukumaravel K",
+        "designation": "Assistant Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/muthukumaravel-k/#agricultural-engineering"
+    },
+    {
+        "name": "Prof. Raghul S",
+        "designation": "Assistant Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/raghul-s/#agricultural-engineering"
+    },
+    {
+        "name": "Prof. Snekha A R",
+        "designation": "Assistant Professor",
+        "department": "Agricultural Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-snekha-a-r/#agricultural-engineering"
+    },
+    {
+        "name": "Dr Gomathi R",
+        "designation": "Professor & Head",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gomathi-r/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Sundara Murthy S",
+        "designation": "Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sundara-murthy-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Eswaramoorthy V",
+        "designation": "Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/eswaramoorthy-v/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Kodieswari A",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kodieswari-a/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Arun Kumar R",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/arun-kumar-r/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Nandhini S S",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nandhini-s-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Balasamy K",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-balasamy-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Subbulakshmi M",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/subbulakshmi-m/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Prabanand S C",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-prabanand-s-c/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Somasundaram K",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/somasundaram-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Ranjith G",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-ranjith-g/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Nithyapriya S",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mrs-nithyapriya-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Esakki Madura E",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/esakki-madura-e/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Saveetha R",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saveetha-r/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Chozharajan P",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chozharajan-p/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Navaneeth Kumar K",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-navaneeth-kumar-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Nisha Devi K",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nisha-devi-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Raj Kumar V S",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/raj-kumar-v-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Divyabarathi P",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/divyabarathi-p/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Vaanathi S",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vaanathi-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Satheeshkumar S",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/satheeshkumar-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Satheesh N P",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/satheesh-n-p/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Kiruthiga R",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kiruthiga-r/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Ashforn Hermina J M",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ashforn-hermina-j-m/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Jeevitha S V",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/jeevitha-s-v/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Premkumar C",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-premkumar-c/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Reshmi T S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/reshmi-t-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Kalpana R",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kalpana-r/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Suriya V",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/suriya-v/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Hema Priya D",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/hemapriya-d/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Priyadharshni S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/priyadharshni-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Manju M",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/manju-m/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Divya S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-divya-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Sasson Taffwin Moses S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-sasson-taffwin-moses-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Manochitra A S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-manochitra-a-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Indhumathi K",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-indhumathi-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Ramalakshmi S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-ramalakshmi-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Shabdhasree C",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-shabdhasree-c/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Vishvak S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-vishvak-s/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Guna Soundiri O C",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-guna-soundiri-o-c/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Srisoundaryaa S S P",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-srisoundaryaa-s-s-p/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Priya P",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-priya-p/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Nithya K",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-nithya-k/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Prof. Trishala A G",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Data Science",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-trishala-a-g/#artificial-intelligence-and-data-science"
+    },
+    {
+        "name": "Dr Bharathi A",
+        "designation": "Professor & Head",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/bharathi-a/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Dr Gopalakrishnan B",
+        "designation": "Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gopalakrishnan-b/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Dr Rajasekar S S",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajasekar-s-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Dr Padmashree A",
+        "designation": "Associate Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/padmashree-a/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Dr Karthikeyan G",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-karthikeyan-g/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Eugene Berna I",
+        "designation": "Assistant Professor Level III",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/eugene-berna-i/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Balamurugan E",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/balamurugan-e/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Haripriya R",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/hari-priya-r/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Nithin P",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nithin-p/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Satheshkumar K",
+        "designation": "Assistant Professor Level II",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/satheshkumar-k/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Karthika S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karthika-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Ezhil R",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ezhil-r/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Pavithra G",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mrs-pavithra-g/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Kanimozhi A",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kanimozhi-a/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Nishanthini S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nishanthini-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Lokeswari P",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/lokeswari-p/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Gayathridevi M",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gayathridevi-m/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Sasithra S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sasithra-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Saranya M K",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-saranya-m-k-2/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Aathifa Nusrath S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-aathifa-nusrath-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Priyadharshini M",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-priyadharshini-m/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Prof. Haripriya S",
+        "designation": "Assistant Professor",
+        "department": "Artificial Intelligence and Machine Learning",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-haripriya-s/#artificial-intelligence-and-machine-learning"
+    },
+    {
+        "name": "Dr Deepa D",
+        "designation": "Professor & Head",
+        "department": "Biomedical Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/deepa-d/#biomedical-engineering"
+    },
+    {
+        "name": "Prof. Caroline Vinnetia S",
+        "designation": "Assistant Professor Level II",
+        "department": "Biomedical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/caroline-vinnetia-s/#biomedical-engineering"
+    },
+    {
+        "name": "Prof. Sreeniveatha P",
+        "designation": "Assistant Professor",
+        "department": "Biomedical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-sreeniveatha-p/#biomedical-engineering"
+    },
+    {
+        "name": "Prof. Pratheebha G",
+        "designation": "Assistant Professor",
+        "department": "Biomedical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-pratheebha-g/#biomedical-engineering"
+    },
+    {
+        "name": "Dr Balakrishnaraja R",
+        "designation": "Professor & Head",
+        "department": "Biotechnology",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/balakrishnaraja-r/#biotechnology"
+    },
+    {
+        "name": "Dr Kannan K P",
+        "designation": "Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kannan-k-p/#biotechnology"
+    },
+    {
+        "name": "Dr Tamilselvi S",
+        "designation": "Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/tamilselvi-s/#biotechnology"
+    },
+    {
+        "name": "Dr Pavithra M K S",
+        "designation": "Associate Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pavithra-m-k-s/#biotechnology"
+    },
+    {
+        "name": "Dr Ashwin Raj S",
+        "designation": "Assistant Professor Level III",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ashwin-raj-s/#biotechnology"
+    },
+    {
+        "name": "Prof. Rajaseetharama S",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajaseetharama-s/#biotechnology"
+    },
+    {
+        "name": "Prof. Jeyavel Karthick P",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/jeyavel-karthick-p/#biotechnology"
+    },
+    {
+        "name": "Prof. Sakthishobana K",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sakthishobana-k/#biotechnology"
+    },
+    {
+        "name": "Prof. Balaji S",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/balaji-s/#biotechnology"
+    },
+    {
+        "name": "Dr Tna Arunasree",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/tna-arunasree/#biotechnology"
+    },
+    {
+        "name": "Dr Saranya S",
+        "designation": "Assistant Professor Level II",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-s-2/#biotechnology"
+    },
+    {
+        "name": "Prof. Swathi G",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/swathi-g/#biotechnology"
+    },
+    {
+        "name": "Prof. Mahima P",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mahima-p/#biotechnology"
+    },
+    {
+        "name": "Prof. Nandhini N",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nandhini-n/#biotechnology"
+    },
+    {
+        "name": "Prof. Vinodhini R T",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vinodhini-r-t/#biotechnology"
+    },
+    {
+        "name": "Prof. Shankari V",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-shankari-v/#biotechnology"
+    },
+    {
+        "name": "Prof. Pavithra Suresh",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-pavithra-suresh/#biotechnology"
+    },
+    {
+        "name": "Prof. Deepika M",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-deepika-m/#biotechnology"
+    },
+    {
+        "name": "Prof. Karthick A",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-karthick-a/#biotechnology"
+    },
+    {
+        "name": "Prof. Smrithi R",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-smrithi-r/#biotechnology"
+    },
+    {
+        "name": "Prof. Kathirvelan V",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kathirvelan-v/#biotechnology"
+    },
+    {
+        "name": "Prof.  Karthih M G",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-karthih-m-g/#biotechnology"
+    },
+    {
+        "name": "Prof. Chitra Devi T",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-chitra-devi-t/#biotechnology"
+    },
+    {
+        "name": "Prof. Monisha B",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-monisha-b/#biotechnology"
+    },
+    {
+        "name": "Prof. Anusuya V",
+        "designation": "Assistant Professor",
+        "department": "Biotechnology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-anusuya-v/#biotechnology"
+    },
+    {
+        "name": "Mr Lukmanul Hakeem K Management Trainee",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/lukmanul-hakeem-k/#placement"
+    },
+    {
+        "name": "Mr Vignesh C Verbal Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-vignesh-c-2/#placement"
+    },
+    {
+        "name": "Mr KaviPriyan C M Aptitude Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-kavipriyan-c-m-2/#placement"
+    },
+    {
+        "name": "Ms Arthy V Core Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-arthy-v/#placement"
+    },
+    {
+        "name": "Ms Priyadharshini V Core Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-priyadharshini-v-3/#placement"
+    },
+    {
+        "name": "Ms Kanimozhi D English Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kanimozhi-d/#placement"
+    },
+    {
+        "name": "Ms Mercyba Angel A English Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mercyba-angel-a/#placement"
+    },
+    {
+        "name": "Ms.Maragatham English Trainer",
+        "designation": "",
+        "department": "Placement",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-maragatham/#placement"
+    },
+    {
+        "name": "Dr Praveena R",
+        "designation": "Head",
+        "department": "Chemistry",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/praveena-r/#chemistry"
+    },
+    {
+        "name": "Dr Vijayanand P S",
+        "designation": "Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vijayanand-p-s/#chemistry"
+    },
+    {
+        "name": "Dr Subhapriya P",
+        "designation": "Associate Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-subhapriya-p/#chemistry"
+    },
+    {
+        "name": "Dr Kavitha C",
+        "designation": "Associate Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kavitha-c/#chemistry"
+    },
+    {
+        "name": "Dr Malathi M",
+        "designation": "Associate Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/malathi-m/#chemistry"
+    },
+    {
+        "name": "Dr Sathish V",
+        "designation": "Assistant Professor Level III",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathish-v/#chemistry"
+    },
+    {
+        "name": "Dr Muthukumar P",
+        "designation": "Assistant Professor Level III",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/muthukumar-p/#chemistry"
+    },
+    {
+        "name": "Dr Murali Krishnan M",
+        "designation": "Assistant Professor Level III",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/murali-krishnan-m/#chemistry"
+    },
+    {
+        "name": "Dr Rameshkumar A",
+        "designation": "Assistant Professor Level III",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rameshkumar-a/#chemistry"
+    },
+    {
+        "name": "Dr Jesin Beneto A",
+        "designation": "Assistant Professor Level II",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-jesin-beneto-a/#chemistry"
+    },
+    {
+        "name": "Dr Deepha V",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/deepha-v/#chemistry"
+    },
+    {
+        "name": "Dr Karuppusamy S",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karuppusamy-s/#chemistry"
+    },
+    {
+        "name": "Dr Kasthuri S",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-kasthuri-s/#chemistry"
+    },
+    {
+        "name": "Dr.Pawel P",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-pawel-p/#chemistry"
+    },
+    {
+        "name": "Dr Dhilip P",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-dhilip-p/#chemistry"
+    },
+    {
+        "name": "Dr Subiksha V S",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-subiksha-v-s/#chemistry"
+    },
+    {
+        "name": "Dr Raguram K",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-raguram-k/#chemistry"
+    },
+    {
+        "name": "Dr Venkatesh D",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-venkatesh-d-2/#chemistry"
+    },
+    {
+        "name": "Dr Vinoth Kumar P",
+        "designation": "Assistant Professor",
+        "department": "Chemistry",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-vinoth-kumar-p/#chemistry"
+    },
+    {
+        "name": "Dr Mohanraj A",
+        "designation": "Head",
+        "department": "Civil Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mohanraj-a/#civil-engineering"
+    },
+    {
+        "name": "Dr Geethamani R",
+        "designation": "Assistant Professor Level III",
+        "department": "Civil Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/geethamani-r/#civil-engineering"
+    },
+    {
+        "name": "Prof. Rajendran M",
+        "designation": "Assistant Professor Level III",
+        "department": "Civil Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajendran-m/#civil-engineering"
+    },
+    {
+        "name": "Prof. Gnanasundar V M",
+        "designation": "Assistant Professor Level III",
+        "department": "Civil Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gnanasundar-v-m/#civil-engineering"
+    },
+    {
+        "name": "Dr Jeyanth B",
+        "designation": "Assistant Professor Level III",
+        "department": "Civil Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/jeyanth-b/#civil-engineering"
+    },
+    {
+        "name": "Prof. Ashwathi R",
+        "designation": "Assistant Professor Level II",
+        "department": "Civil Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-ashwathi-r/#civil-engineering"
+    },
+    {
+        "name": "Prof. Yuvalatha S",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/yuvalatha-s/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Madhumitha A",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/madhumitha-a/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Saranya N",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-n/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Naveenya B P",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/naveenya-b-p/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Vaishnavi N",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-vaishnavi-n/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Prabakar S J",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Business Systems",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-prabakar-s-j/#computer-science-and-business-systems"
+    },
+    {
+        "name": "Prof. Maheshkumar K",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Design",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/maheshkumar-k/#computer-science-and-design"
+    },
+    {
+        "name": "Prof. Preethimathi L",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Design",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/preethimathi-l/#computer-science-and-design"
+    },
+    {
+        "name": "Prof. Kiruthika S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Design",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kiruthika-s/#computer-science-and-design"
+    },
+    {
+        "name": "Dr Sasikala D",
+        "designation": "Professor & Head",
+        "department": "Computer Science and Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-sasikala-d/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Premalatha K",
+        "designation": "Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/premalatha-k/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Sathishkumar P",
+        "designation": "Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathishkumar-p/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Sangeethaa S N",
+        "designation": "Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sangeethaa-sn/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Rajeshkumar G",
+        "designation": "Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajeshkumar-g/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Karthiga M",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karthiga-m/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Saranya K",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-k/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Deepa Priya B S",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/deepa-priya-b-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Ramya R",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramya-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Parthasarathi P",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/parthasarathi-p/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Dhivya P",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dhivya-p/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Rajesh Kanna P",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajesh-kanna-p-2/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Praveen V",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/praveen-v/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Swathypriyadharsini P",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/swathypriyadharsini-p/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Dinesh P S",
+        "designation": "Associate Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dinesh-p-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Chandru K S",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chandru-k-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sathishkannan R",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathishkannan-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Ramasami S",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramasami-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Prabha Devi D",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prabha-devi-d/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Soundariya R S",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-soundariya-r-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Suseendran S",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/suseendran-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Ammu V",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ammu-v/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Alamelu M",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/alamelu-m/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Kavitha R",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kavitha-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Magesh Kumar B",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/magesh-kumar-b/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Kiruthika V R",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kiruthika-v-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Nithya R",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nithya-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sangavi N",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sangavi-n/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Anandan P",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/anandan-p/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mohan Kumar V",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mohan-kumar-v/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Chitradevi T N",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-chitradevi-t-n/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sudha R",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sudha-r/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Gayathri S",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gayathri-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Nithyasri A",
+        "designation": "Assistant Professor Level II",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-nithyasri-a/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Steephan Amalraj J",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/steephan-amalraj-j/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sathyamoorthy J",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-sathyamoorthy-j-2/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mohanambal K",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mrs-mohanambal-k/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Gunavardini V",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gunavardini-v/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Priyanga M A",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/priyanga-m-a/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mohanapriya K",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mohanapriya-k/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sathiya B",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathiya-b/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Rathna S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-rathna-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Parkavi S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/parkavi-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Rangaraj K",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rangaraj-k/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mythili G M",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-mythili-g-m/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Gayathiri Devi S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-gayathiri-devi-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Kayalvizhi B",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kayalvizhi-b/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Thangatamilselvi S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-thangatamilselvi-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mahesh S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-mahesh-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Jackson J",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-jackson-j-2/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Aswin Jaya Surya M J",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-aswin-jaya-surya-m-j/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Gokul M S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-gokul-m-s-2/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Ramya M",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-ramya-m/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Velukumarasamy A",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-velukumarasamy-a/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Mary Shalini A",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-mary-shalini-a-2/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Vidhyasree S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-vidhyasree-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Saveetha B",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-saveetha-b/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Soundhiri S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-soundhiri-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Sudharsan S",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-sudharsan-s/#computer-science-and-engineering"
+    },
+    {
+        "name": "Prof. Saileela U",
+        "designation": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-saileela-u/#computer-science-and-engineering"
+    },
+    {
+        "name": "Dr Thanga Parvathi B",
+        "designation": "Professor",
+        "department": "Computer Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/thanga-parvathi-b/#computer-technology"
+    },
+    {
+        "name": "Dr Murugesan P",
+        "designation": "Assistant Professor Level III",
+        "department": "Computer Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/murugesan-p/#computer-technology"
+    },
+    {
+        "name": "Prof.  Sweety Prasanna kiruba G",
+        "designation": "Assistant Professor",
+        "department": "Computer Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prasannakiruba-g-s/#computer-technology"
+    },
+    {
+        "name": "Dr Maheswari K T",
+        "designation": "Head",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/maheswari-k-t/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Bharani Kumar R",
+        "designation": "Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-bharani-kumar-r/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Sivaraman P",
+        "designation": "Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sivaraman-p/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Veerakumar S",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/veerakumar-s/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Srinivasan M",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/srinivasan-m/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Rajalashmi K",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-rajalashmi-k/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Senthil Kumar J",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/senthil-kumar-j/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Sathishkumar S",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathishkumar-s/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Karthick S",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-karthick-s/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr.Arulkumar K",
+        "designation": "Associate Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-arulkumar-k/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr  Nandhakumar A",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nandhakumar-a/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Sritha P",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sritha-p/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Mohanapriya V",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mohanapriya-v/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Sundar S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sundar-s/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Alex Stanley Raja T",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/alex-stanley-raja-t/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Chinnadurrai Cl",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chinnadurrai-cl/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Goldvin Sugirtha Dhas B",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/goldvin-sugirtha-dhas-b/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Arun Chendhuran R",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/arun-chendhuran-r/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Nithya G",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nithya-g/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Rishikesh N",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rishikesh-n/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Suresh N S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-suresh-n-s/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Gopika N P",
+        "designation": "Assistant Professor Level II",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gopika-n-p/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Madhumitha J",
+        "designation": "Assistant Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/madhumitha-j/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Prof. Kiruthika M",
+        "designation": "Assistant Professor",
+        "department": "Electrical and Electronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kiruthika-m/#electrical-and-electronics-engineering"
+    },
+    {
+        "name": "Dr Prakash S P",
+        "designation": "Head",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prakash-s-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Harikumar R",
+        "designation": "Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/harikumar-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Poongodi C",
+        "designation": "Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/poongodi-c/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sampoornam K P",
+        "designation": "Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sampoornam-k-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Perarasi T",
+        "designation": "Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/perarasi-t/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sanjoy Deb",
+        "designation": "Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sanjoy-deb/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Pushpavalli M",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pushpavalli-m/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sannasi Chakravarthy S R",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sannasi-chakravarthy-s-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Venkateshkumar U",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/venkateshkumar-u/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sathiyamurthi P",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-sathiyamurthi-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Ramya P",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramya-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Elango S",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/elango-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sajan P Philip",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sajan-p-philip/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Arulmurugan L",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/arulmurugan-l/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Murugan K",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/murugan-k/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Daniel Raj A",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/daniel-raj-a/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Leeban Moses M",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/leeban-moses-m/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Ramkumar R",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramkumar-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Yuvaraj S",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-yuvaraj-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Dhanasekar S",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-dhanasekar-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Nirmal Kumar R",
+        "designation": "Associate Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nirmal-kumar-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Tamilselvan S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/tamilselvan-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Dhanalakshmi S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dhanalakshmi-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Sankarananth S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-sankarananth-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Karthikeyan S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karthikeyan-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Saranya N",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-n-2/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Raja Sekar S",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/raja-sekar-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Baranidharan V",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/baranidharan-v/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Stephen Sagayaraj A",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/stephen-sagayaraj-a/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Vellingiri A",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vellingiri-a/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Tamilarasi R",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-tamilarasi-r-2/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Mythili S",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mythili-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Gayathri R",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gayathri-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Krishnaraj R",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/krishnaraj-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Sharmila A",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sharmila-a/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Abinaya M",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/abinaya-m/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Soundarya B",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/soundarya-b/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Karthiga M",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karthiga-m-2/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Harish Kumaar P",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/harish-kumaar-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Muralidharan K",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-muralidharan-k-2/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Hemalatha M",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-hemalatha-m/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Mariaamutha R",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mariaamutha-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Nivetha G",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nivetha-g/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Ramesh R",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramesh-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Syed Althaf S",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-syed-althaf-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Sandhiyadevi P",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sandhiyadevi-p/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Ragavi M",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-ragavi-m/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Nalifabegam J",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-nalifabegam-j/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Lino L",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-lino-l/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Pradeep Raja R",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-pradeep-raja-r/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Prof. Karthik S",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Communication Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-karthik-s/#electronics-and-communication-engineering"
+    },
+    {
+        "name": "Dr Vairavel K S",
+        "designation": "Head",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vairavel-k-s-2/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Balamurugan V T",
+        "designation": "Professor",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/balamurugan-v-t/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Sudhahar S",
+        "designation": "Associate Professor",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sudhahar-s/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Arun Jayakar S",
+        "designation": "Associate Professor",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/arun-jayakar-s/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Kalaiyarasi M",
+        "designation": "Associate Professor",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kalaiyarasi-m/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Dhanasekar R",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dhanasekar-r/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Haritha J",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/haritha-j/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr Nandhini K M",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nandhini-k-m/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Dr  Sakthiya Ram S Assistant Professor III",
+        "designation": "",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sakthiya-ram-s/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Prof. Pravin Savaridass M",
+        "designation": "Assistant Professor Level III",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pravin-savaridass-m/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Prof. Prathap M R",
+        "designation": "Assistant Professor Level II",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prathap-m-r/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Prof. Kumaresan K",
+        "designation": "Assistant Professor",
+        "department": "Electronics and Instrumentation Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kumaresan-k/#electronics-and-instrumentation-engineering"
+    },
+    {
+        "name": "Prof. Saranya D V",
+        "designation": "Head",
+        "department": "Fashion Technology",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-d-v/#fashion-technology"
+    },
+    {
+        "name": "Dr Mohan Bharathi C",
+        "designation": "Assistant Professor Level III",
+        "department": "Fashion Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mohan-bharathi-c/#fashion-technology"
+    },
+    {
+        "name": "Prof. Mekala N",
+        "designation": "Assistant Professor Level II",
+        "department": "Fashion Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mekala-n/#fashion-technology"
+    },
+    {
+        "name": "Prof. Gowrishankar L",
+        "designation": "Assistant Professor Level III",
+        "department": "Food Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gowrishankar-l/#food-technology"
+    },
+    {
+        "name": "Prof. Pidathala Sahitya",
+        "designation": "Assistant Professor",
+        "department": "Food Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pidathala-sahitya/#food-technology"
+    },
+    {
+        "name": "Prof. Sivarahini K",
+        "designation": "Assistant Professor",
+        "department": "Food Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-sivarahini-k/#food-technology"
+    },
+    {
+        "name": "Dr Ajai A",
+        "designation": "Head",
+        "department": "Humanities",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ajai-a/#humanities"
+    },
+    {
+        "name": "Dr Gayathri G M",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-gayathri-g-m/#humanities"
+    },
+    {
+        "name": "Dr Aslin Jerusha D",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-aslin-jerusha-d/#humanities"
+    },
+    {
+        "name": "Dr Ezhil G",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ezhil-g/#humanities"
+    },
+    {
+        "name": "Dr Nithya S",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-nithya-s-2/#humanities"
+    },
+    {
+        "name": "Dr Sagunthala Devi P",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sagunthala-devi-p/#humanities"
+    },
+    {
+        "name": "Prof. Kamali D",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kamali-d-2/#humanities"
+    },
+    {
+        "name": "Prof. Shyamsundar S",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-shyamsundar-s/#humanities"
+    },
+    {
+        "name": "Dr Jaya K",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-jaya-k/#humanities"
+    },
+    {
+        "name": "Prof. Ranganathan A Hindi Teacher",
+        "designation": "",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ranganathan-a/#humanities"
+    },
+    {
+        "name": "Prof Sripriyanka S",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sripriyanka-s/#humanities"
+    },
+    {
+        "name": "Dr. Samsonraj C",
+        "designation": "Assistant Professor",
+        "department": "Humanities",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-samsonraj-c/#humanities"
+    },
+    {
+        "name": "Dr Anandakumar K",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/anandhakumar-k/#information-science-and-engineering"
+    },
+    {
+        "name": "Prof. Pandiyan M",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pandiyan-m/#information-science-and-engineering"
+    },
+    {
+        "name": "Prof. Poornima A",
+        "designation": "Assistant Professor",
+        "department": "Information Science and Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/poornima-a/#information-science-and-engineering"
+    },
+    {
+        "name": "Dr Naveena S",
+        "designation": "Head",
+        "department": "Information Technology",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/naveena-s/#information-technology"
+    },
+    {
+        "name": "Dr Palanisamy C",
+        "designation": "Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-palanisamy-c/#information-technology"
+    },
+    {
+        "name": "Dr Sadhasivam N",
+        "designation": "Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sadhasivam-n/#information-technology"
+    },
+    {
+        "name": "Dr Paarivallal Ra.",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/paarivallal-ra/#information-technology"
+    },
+    {
+        "name": "Dr Sathis Kumar K",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathis-kumar-k/#information-technology"
+    },
+    {
+        "name": "Dr Chandraprabha K",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chandraprabha-k/#information-technology"
+    },
+    {
+        "name": "Dr Priya J",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/priya-j-n/#information-technology"
+    },
+    {
+        "name": "Dr Venkatesan R",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/venkatesan-r/#information-technology"
+    },
+    {
+        "name": "Dr Nataraj N",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nataraj-n/#information-technology"
+    },
+    {
+        "name": "Dr Sri Vinitha V",
+        "designation": "Associate Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-sri-vinitha-v/#information-technology"
+    },
+    {
+        "name": "Prof. Gopal R",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gopal-r/#information-technology"
+    },
+    {
+        "name": "Prof. Vinoth M",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vinoth-m/#information-technology"
+    },
+    {
+        "name": "Prof. Priya L",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/priya-l/#information-technology"
+    },
+    {
+        "name": "Prof. Selvakumar M",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/selvakumar-m/#information-technology"
+    },
+    {
+        "name": "Dr Tamilthendral M",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-tamilthendral-m-2/#information-technology"
+    },
+    {
+        "name": "Prof. Sabarmathi K R",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sabarmathi-k-r/#information-technology"
+    },
+    {
+        "name": "Prof. Sobiyaa P",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sobiyaa-p/#information-technology"
+    },
+    {
+        "name": "Dr Jothimani S",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mrs-jothimani-s/#information-technology"
+    },
+    {
+        "name": "Dr Nivedha S",
+        "designation": "Assistant Professor Level III",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-nivedha-s/#information-technology"
+    },
+    {
+        "name": "Prof. Prabhu P S",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prabhu-p-s-2/#information-technology"
+    },
+    {
+        "name": "Prof. Mohemmed Yousuf R",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-mohemmed-yousuf-r/#information-technology"
+    },
+    {
+        "name": "Prof. Senthilnathan  S",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-senthilnathan-s/#information-technology"
+    },
+    {
+        "name": "Prof. Janani T",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/janani-t/#information-technology"
+    },
+    {
+        "name": "Prof. Gunalan K",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gunalan-k/#information-technology"
+    },
+    {
+        "name": "Prof. Nikitha M",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nikitha-m/#information-technology"
+    },
+    {
+        "name": "Prof. Keerthana K",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-keerthana-k/#information-technology"
+    },
+    {
+        "name": "Prof. Sathyaraj S",
+        "designation": "Assistant Professor Level II",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-sathyaraj-s/#information-technology"
+    },
+    {
+        "name": "Prof. Santhiya B",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/santhiya-b/#information-technology"
+    },
+    {
+        "name": "Prof. Muthumeena S",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-muthumeena-s/#information-technology"
+    },
+    {
+        "name": "Prof. Kavitha V",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kavitha-v/#information-technology"
+    },
+    {
+        "name": "Prof. Priya A",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-priya-a/#information-technology"
+    },
+    {
+        "name": "Prof. Shangara Narayanee N P",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-shangara-narayanee-n-p/#information-technology"
+    },
+    {
+        "name": "Prof. Indhu Bhashini V",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-indhu-bhashini-v/#information-technology"
+    },
+    {
+        "name": "Prof. Deepa Sumathi M",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-deepa-sumathi-m/#information-technology"
+    },
+    {
+        "name": "Prof. Elavarasi T",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-elavarasi-t/#information-technology"
+    },
+    {
+        "name": "Prof. Manisha G",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-manisha-g/#information-technology"
+    },
+    {
+        "name": "Prof. Lakshmi Shrri A",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-lakshmi-shrri-a/#information-technology"
+    },
+    {
+        "name": "Prof. Dharsana V",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-dharsana-v/#information-technology"
+    },
+    {
+        "name": "Prof. Amutha S",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-amutha-s/#information-technology"
+    },
+    {
+        "name": "Prof. Kiruthika G",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kiruthika-g/#information-technology"
+    },
+    {
+        "name": "Prof. Kaviyan P",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-kaviyan-p/#information-technology"
+    },
+    {
+        "name": "Prof. Vidhya Shri H",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-vidhya-shri-h/#information-technology"
+    },
+    {
+        "name": "Prof. Rochanaa E",
+        "designation": "Assistant Professor",
+        "department": "Information Technology",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-rochanaa-e/#information-technology"
+    },
+    {
+        "name": "Dr Parimala M",
+        "designation": "Head",
+        "department": "Mathematics",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/parimala-m/#mathematics"
+    },
+    {
+        "name": "Dr Indirani C",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/indirani-c/#mathematics"
+    },
+    {
+        "name": "Dr Vinothini V R",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vinothini-v-r/#mathematics"
+    },
+    {
+        "name": "Dr Saravana Moorthi P",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saravana-moorthi-p/#mathematics"
+    },
+    {
+        "name": "Dr Prabhavathi K",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prabhavathi-k/#mathematics"
+    },
+    {
+        "name": "Dr Umamageswari D",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/umamageswari-d/#mathematics"
+    },
+    {
+        "name": "Dr Prakash K",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pakash-k/#mathematics"
+    },
+    {
+        "name": "Prof. Preetha R",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/preetha-r/#mathematics"
+    },
+    {
+        "name": "Dr Saranya D",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saranya-d/#mathematics"
+    },
+    {
+        "name": "Dr Selvi S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/selvi-s/#mathematics"
+    },
+    {
+        "name": "Prof. Karuppusamy M",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karuppusamy-m/#mathematics"
+    },
+    {
+        "name": "Prof. Karthika M",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/karthika-m/#mathematics"
+    },
+    {
+        "name": "Dr Revathi V M",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/revathi-v-m-2/#mathematics"
+    },
+    {
+        "name": "Prof. Kalaiselvan S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kalaiselvan-s/#mathematics"
+    },
+    {
+        "name": "Dr Prabakaran P",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prabakaran-p/#mathematics"
+    },
+    {
+        "name": "Dr Gayathiri B",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gayathri-b/#mathematics"
+    },
+    {
+        "name": "Dr Vijaya Kumar M",
+        "designation": "Assistant Professor Level III",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-vijaya-kumar-m/#mathematics"
+    },
+    {
+        "name": "Prof. Suresh R",
+        "designation": "Assistant Professor Level II",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/suresh-r/#mathematics"
+    },
+    {
+        "name": "Dr Malathi M",
+        "designation": "Assistant Professor Level II",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-malathi-m/#mathematics"
+    },
+    {
+        "name": "Dr Gomathi M",
+        "designation": "Assistant Professor Level II",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gomathi-m/#mathematics"
+    },
+    {
+        "name": "Dr Akalyadevi  K",
+        "designation": "Assistant Professor Level II",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-akalyadevi-k/#mathematics"
+    },
+    {
+        "name": "Dr Hemalatha B",
+        "designation": "Assistant Professor",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-hemalatha-b-2/#mathematics"
+    },
+    {
+        "name": "Dr  Koushika Dhevi  S",
+        "designation": "Assistant Professor",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-koushika-dhevi-s/#mathematics"
+    },
+    {
+        "name": "Dr Nandhini C",
+        "designation": "Assistant Professor",
+        "department": "Mathematics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-nandhini-c/#mathematics"
+    },
+    {
+        "name": "Dr Ravi Kumar M",
+        "designation": "Professor & Head",
+        "department": "Mechanical Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ravi-kumar-m/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Sivakumar K Senior",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-sivakumar-k/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Muthukumar K Adjunct Faculty",
+        "designation": "",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/muthukumar-k-2/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Senthilkumar G",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/senthilkumar-g/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Amarkarthik A",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/amarkarthik-a/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Sasikumar C",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sasikumar-c/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Ramesh Kumar T",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramesh-kumar-t/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Kumaresan G",
+        "designation": "Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kumaresan-g/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Anandha Moorthy A",
+        "designation": "Associate Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/anandha-moorthy-a/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Mathankumar P",
+        "designation": "Associate Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mathankumar-p/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Sureshkumar M",
+        "designation": "Associate Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sureshkumar-m-2/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Sundarraju G",
+        "designation": "Associate Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sundarraju-g/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Dinesh D",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dinesh-d/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Velmurugan S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/velmurugan-s/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Sathishkumar C",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sathishkumar-c/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Ramakrishnan A",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ramakrishnan-a/#mechanical-engineering"
+    },
+    {
+        "name": "Dr SakthivelMurugan E",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sakthivel-murugan-e/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Tajdeen A",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/tajdeen-a/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Pradeep A D",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pradeep-a-d/#mechanical-engineering"
+    },
+    {
+        "name": "Dr  Prakash K B",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prakash-k-b/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Subramaniyan C",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/subramaniyan-c/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Madheswaran S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/madheswaran-s/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Boopathiraja K P",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/boopathiraja-k-p/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Dhayaneethi S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dhayaneethi-s/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Tamilselvan A",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/tamilselvan-a/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Kamal Basha K",
+        "designation": "Assistant Professor Level II",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/kamal-basha-k/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Chandrasekaran M",
+        "designation": "Assistant Professor Level II",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/chandrasekaran-m/#mechanical-engineering"
+    },
+    {
+        "name": "Prof. Joseph Silvester K",
+        "designation": "Assistant Professor Level II",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-joseph-silvester-k/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Pavanaditya Badida",
+        "designation": "Assistant Professor",
+        "department": "Mechanical Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pavanaditya-badida/#mechanical-engineering"
+    },
+    {
+        "name": "Dr Senthil Kumar K L",
+        "designation": "Professor & Head",
+        "department": "Mechatronics Engineering",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/senthil-kumar-k-l/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Jegadheeswaran S",
+        "designation": "Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-jegadheeswaran-s/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Senthilkumar P",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/senthilkumarp/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Pravin M C",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pravin-m-c/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Rajiev R",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rajiev-r/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Nagarajan P",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nagarajan-p/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Sivabalakrishnan R",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sivabalakrishnan-r/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Dhinesh S K",
+        "designation": "Associate Professor",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dhinesh-s-k/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Nijandhan K",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/nijandhan-k/#mechatronics-engineering"
+    },
+    {
+        "name": "Prof. Vignesh S",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vignesh-s-2/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Siddharthan B",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/siddharthan-b/#mechatronics-engineering"
+    },
+    {
+        "name": "Dr Vadivel Vivek V",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vadivel-vivek-v/#mechatronics-engineering"
+    },
+    {
+        "name": "Prof. Raghunath M",
+        "designation": "Assistant Professor Level III",
+        "department": "Mechatronics Engineering",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/raghunath-m/#mechatronics-engineering"
+    },
+    {
+        "name": "Mr Thamilarasan P Assistant Physical Director",
+        "designation": "",
+        "department": "Physical Education",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mr-tamilarasan-a-2/#physical-education"
+    },
+    {
+        "name": "Ms Dhanu D Physical Training Instructor",
+        "designation": "",
+        "department": "Physical Education",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ms-dhanu-d/#physical-education"
+    },
+    {
+        "name": "Ms Hari Priya T Assistant Physical Director",
+        "designation": "",
+        "department": "Physical Education",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/hari-priya-t/#physical-education"
+    },
+    {
+        "name": "Dr Sadasivam K",
+        "designation": "Professor & Head",
+        "department": "Physics",
+        "is_hod": true,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sadasivam-k/#physics"
+    },
+    {
+        "name": "Dr Vijayakumar V N",
+        "designation": "Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vijayakumar-vn/#physics"
+    },
+    {
+        "name": "Dr Pongali Sathya Prabu N",
+        "designation": "Associate Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/pongali-sathya-prabu-n/#physics"
+    },
+    {
+        "name": "Dr Ashokan S",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/ashokan-s/#physics"
+    },
+    {
+        "name": "Dr Thirumoorthy M",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/thirumoorthy-m-2/#physics"
+    },
+    {
+        "name": "Dr Rohini P",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/rohini-p/#physics"
+    },
+    {
+        "name": "Dr Parasuraman P",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/parasuraman-p/#physics"
+    },
+    {
+        "name": "Dr Selvakumar K",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/selvakumar-k/#physics"
+    },
+    {
+        "name": "Dr Vanitha K",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/vanitha-k/#physics"
+    },
+    {
+        "name": "Dr Sangeetha K",
+        "designation": "Assistant Professor Level III",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-sangeetha-k/#physics"
+    },
+    {
+        "name": "Dr Anandha Babu G",
+        "designation": "Assistant Professor Level II",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/anandha-babu-g/#physics"
+    },
+    {
+        "name": "Dr Siva G",
+        "designation": "Assistant Professor Level II",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/siva-g/#physics"
+    },
+    {
+        "name": "Dr Sundaram S",
+        "designation": "Assistant Professor Level II",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sundaram-s/#physics"
+    },
+    {
+        "name": "Dr.BALAJI M",
+        "designation": "Assistant Professor Level II",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-balaji-m/#physics"
+    },
+    {
+        "name": "Dr Gopi G",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/gopi-g/#physics"
+    },
+    {
+        "name": "Dr Baskaran P",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/baskaran-p/#physics"
+    },
+    {
+        "name": "Dr Priyadharsini A",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-priyadharsini-a-2/#physics"
+    },
+    {
+        "name": "Dr Nithya V D",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-nithya-v-d/#physics"
+    },
+    {
+        "name": "Dr Malarvizhi M",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-malarvizhi-m/#physics"
+    },
+    {
+        "name": "Dr Pavithrakumar M",
+        "designation": "Assistant Professor",
+        "department": "Physics",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-pavithrakumar-m/#physics"
+    },
+    {
+        "name": "Dr Murugappan S Professor & Director",
+        "designation": "",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/murugappan-s/#school-of-management-studies"
+    },
+    {
+        "name": "Dr Adhinarayanan B",
+        "designation": "Associate Professor",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/adhinarayanan-b/#school-of-management-studies"
+    },
+    {
+        "name": "Dr Satheesh Kumar T",
+        "designation": "Associate Professor",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/dr-satheesh-kumar-t-2/#school-of-management-studies"
+    },
+    {
+        "name": "Dr Saraswathi C",
+        "designation": "Assistant Professor Level III",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/saraswathi-c/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Sibi John A",
+        "designation": "Assistant Professor Level III",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/sibi-john-a/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Senthil Kumar N",
+        "designation": "Assistant Professor Level III",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/senthil-kumar-n/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Nandhini B",
+        "designation": "Assistant Professor Level II",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/mrs-nandhini-b/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Mageswaran J",
+        "designation": "Assistant Professor Level II",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-mageswaran-j/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Dhanabalu S N",
+        "designation": "Assistant Professor Level II",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-dhanabalu-s-n/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Saranya S",
+        "designation": "Assistant Professor Level II",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-saranya-s/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Aishwariya M R",
+        "designation": "Assistant Professor",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/aishwariya-m-r/#school-of-management-studies"
+    },
+    {
+        "name": "Prof. Suganesh S",
+        "designation": "Assistant Professor",
+        "department": "School Of Management Studies",
+        "is_hod": false,
+        "profile_url": "https://www.bitsathy.ac.in/departments/faculty/prof-suganesh-s/#school-of-management-studies"
+    }
+]
