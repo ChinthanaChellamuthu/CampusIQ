@@ -1,6 +1,6 @@
 /* =========================================================
-   CAMPUSIQ
-   MAIN JAVASCRIPT
+   CAMPUSIQ - COMPLETE JAVASCRIPT
+   Frontend ↔ Flask Backend
 ========================================================= */
 
 
@@ -12,51 +12,31 @@ const OFFICIAL_DOMAIN = "@bitsathy.ac.in";
 
 const HISTORY_DAYS = 15;
 
+/*
+    Flask backend API
+*/
+const API_URL = "http://127.0.0.1:5000/api/ask";
 
 /*
-    IMPORTANT
-
-    sessionStorage:
-    Stores login only for the current browser tab/session.
-
-    localStorage:
-    Stores chat history so that history can remain available.
+    Browser storage
 */
-
-const STORAGE_USER =
-    "campusIQ_current_user";
-
-const STORAGE_CHATS =
-    "campusIQ_chat_history";
+const STORAGE_USER = "campusIQ_current_user";
+const STORAGE_CHATS = "campusIQ_chat_history";
 
 
 /* =========================================================
    DOM ELEMENTS
 ========================================================= */
 
-const loginPage =
-    document.getElementById("loginPage");
+const loginPage = document.getElementById("loginPage");
+const welcomePage = document.getElementById("welcomePage");
+const appPage = document.getElementById("appPage");
 
-const welcomePage =
-    document.getElementById("welcomePage");
+const emailInput = document.getElementById("emailInput");
+const loginButton = document.getElementById("loginButton");
+const loginError = document.getElementById("loginError");
 
-const appPage =
-    document.getElementById("appPage");
-
-
-const emailInput =
-    document.getElementById("emailInput");
-
-const loginButton =
-    document.getElementById("loginButton");
-
-const loginError =
-    document.getElementById("loginError");
-
-
-const enterAppButton =
-    document.getElementById("enterAppButton");
-
+const enterAppButton = document.getElementById("enterAppButton");
 
 const sidebarUserName =
     document.getElementById("sidebarUserName");
@@ -67,7 +47,6 @@ const sidebarUserEmail =
 const userAvatar =
     document.getElementById("userAvatar");
 
-
 const newChatButton =
     document.getElementById("newChatButton");
 
@@ -76,7 +55,6 @@ const historyButton =
 
 const logoutButton =
     document.getElementById("logoutButton");
-
 
 const chatInput =
     document.getElementById("chatInput");
@@ -90,7 +68,6 @@ const messagesContainer =
 const emptyChat =
     document.getElementById("emptyChat");
 
-
 const historyOverlay =
     document.getElementById("historyOverlay");
 
@@ -99,7 +76,6 @@ const historyList =
 
 const closeHistory =
     document.getElementById("closeHistory");
-
 
 const logoutModal =
     document.getElementById("logoutModal");
@@ -110,13 +86,11 @@ const cancelLogout =
 const confirmLogout =
     document.getElementById("confirmLogout");
 
-
 const thankYouModal =
     document.getElementById("thankYouModal");
 
 const continueButton =
     document.getElementById("continueButton");
-
 
 const mobileMenuButton =
     document.getElementById("mobileMenuButton");
@@ -133,9 +107,7 @@ const sidebarOverlay =
 ========================================================= */
 
 let currentUser = null;
-
 let currentChat = [];
-
 let currentChatId = null;
 
 
@@ -151,14 +123,6 @@ document.addEventListener(
 
 function initialize() {
 
-    /*
-        Check only the current session.
-
-        If the user closed the previous tab,
-        sessionStorage will be empty and
-        CampusIQ will show the login page.
-    */
-
     loadUser();
 
     setupEventListeners();
@@ -166,25 +130,18 @@ function initialize() {
     setupSuggestionButtons();
 
     setupChatInput();
+
 }
 
 
 /* =========================================================
-   USER FUNCTIONS
+   USER
 ========================================================= */
 
 function loadUser() {
 
     const savedUser =
-        sessionStorage.getItem(
-            STORAGE_USER
-        );
-
-
-    /*
-        No active session
-        → Show login page
-    */
+        sessionStorage.getItem(STORAGE_USER);
 
     if (!savedUser) {
 
@@ -193,17 +150,10 @@ function loadUser() {
         return;
     }
 
-
     try {
 
         currentUser =
             JSON.parse(savedUser);
-
-
-        /*
-            If a valid session exists,
-            show the welcome page.
-        */
 
         showWelcomePage();
 
@@ -211,11 +161,17 @@ function loadUser() {
 
     catch (error) {
 
+        console.error(
+            "User loading error:",
+            error
+        );
+
         sessionStorage.removeItem(
             STORAGE_USER
         );
 
         showLoginPage();
+
     }
 }
 
@@ -229,13 +185,11 @@ function getNameFromEmail(email) {
     let username =
         email.split("@")[0];
 
-
     username =
         username.replace(
             /[._-]+/g,
             " "
         );
-
 
     return username
         .trim()
@@ -261,13 +215,7 @@ function login() {
             .trim()
             .toLowerCase();
 
-
     loginError.textContent = "";
-
-
-    /*
-        Empty email
-    */
 
     if (!email) {
 
@@ -279,10 +227,6 @@ function login() {
         return;
     }
 
-
-    /*
-        Check official college email
-    */
 
     if (!isValidEmail(email)) {
 
@@ -299,40 +243,21 @@ function login() {
     }
 
 
-    /*
-        Create current user.
-
-        The name is still kept internally
-        because the sidebar can display it.
-
-        It is NOT displayed on the
-        Welcome Back page.
-    */
-
     const name =
         getNameFromEmail(email);
 
 
     currentUser = {
 
-        email:
-            email,
+        email: email,
 
-        name:
-            name,
+        name: name,
 
         loginTime:
             new Date().toISOString()
+
     };
 
-
-    /*
-        IMPORTANT:
-        sessionStorage instead of localStorage.
-
-        This means the user must sign in again
-        when the website session/tab ends.
-    */
 
     sessionStorage.setItem(
         STORAGE_USER,
@@ -346,6 +271,7 @@ function login() {
 
 
     showWelcomePage();
+
 }
 
 
@@ -358,8 +284,8 @@ function isValidEmail(email) {
     const emailPattern =
         /^[^\s@]+@bitsathy\.ac\.in$/i;
 
-
     return emailPattern.test(email);
+
 }
 
 
@@ -369,17 +295,12 @@ function isValidEmail(email) {
 
 function showLoginPage() {
 
-    loginPage.classList.add(
-        "active"
-    );
+    loginPage.classList.add("active");
 
-    welcomePage.classList.remove(
-        "active"
-    );
+    welcomePage.classList.remove("active");
 
-    appPage.classList.remove(
-        "active"
-    );
+    appPage.classList.remove("active");
+
 }
 
 
@@ -389,24 +310,12 @@ function showLoginPage() {
 
 function showWelcomePage() {
 
-    loginPage.classList.remove(
-        "active"
-    );
+    loginPage.classList.remove("active");
 
-    welcomePage.classList.add(
-        "active"
-    );
+    welcomePage.classList.add("active");
 
-    appPage.classList.remove(
-        "active"
-    );
+    appPage.classList.remove("active");
 
-    /*
-        No name is inserted here.
-
-        The HTML simply displays:
-        "Welcome back!"
-    */
 }
 
 
@@ -416,22 +325,17 @@ function showWelcomePage() {
 
 function showApplication() {
 
-    loginPage.classList.remove(
-        "active"
-    );
+    loginPage.classList.remove("active");
 
-    welcomePage.classList.remove(
-        "active"
-    );
+    welcomePage.classList.remove("active");
 
-    appPage.classList.add(
-        "active"
-    );
+    appPage.classList.add("active");
 
 
     updateUserUI();
 
     startNewChat();
+
 }
 
 
@@ -442,27 +346,37 @@ function showApplication() {
 function updateUserUI() {
 
     if (!currentUser) {
+
         return;
     }
 
-    // Show only email
+
+    /*
+        Your HTML contains both
+        user-name and user-email.
+
+        We display the logged-in
+        college email in the first field.
+    */
+
     sidebarUserName.textContent =
         currentUser.email;
 
-    // Hide duplicate email field
+
     sidebarUserEmail.style.display =
         "none";
 
-    // Avatar = first letter of email
+
     userAvatar.textContent =
         currentUser.email
             .charAt(0)
             .toUpperCase();
+
 }
 
 
 /* =========================================================
-   LOGOUT
+   LOGOUT MODAL
 ========================================================= */
 
 function openLogoutModal() {
@@ -470,6 +384,7 @@ function openLogoutModal() {
     logoutModal.classList.remove(
         "hidden"
     );
+
 }
 
 
@@ -478,22 +393,26 @@ function closeLogoutModal() {
     logoutModal.classList.add(
         "hidden"
     );
+
 }
 
+
+/* =========================================================
+   LOGOUT
+========================================================= */
 
 function logout() {
 
     /*
-        Save current chat before logout.
+        Save current conversation
+        before logging out.
     */
 
     saveCurrentChat();
 
 
     /*
-        Remove only the active login session.
-
-        Chat history remains.
+        Remove active session.
     */
 
     sessionStorage.removeItem(
@@ -530,17 +449,18 @@ function logout() {
 
 
     /*
-        Show Thank You message.
+        Show thank-you modal.
     */
 
     thankYouModal.classList.remove(
         "hidden"
     );
+
 }
 
 
 /* =========================================================
-   THANK YOU
+   THANK YOU MODAL
 ========================================================= */
 
 function closeThankYou() {
@@ -548,6 +468,7 @@ function closeThankYou() {
     thankYouModal.classList.add(
         "hidden"
     );
+
 }
 
 
@@ -556,6 +477,10 @@ function closeThankYou() {
 ========================================================= */
 
 function startNewChat() {
+
+    /*
+        Save previous chat first.
+    */
 
     saveCurrentChat();
 
@@ -567,6 +492,7 @@ function startNewChat() {
 
 
     renderMessages();
+
 }
 
 
@@ -584,11 +510,12 @@ function generateChatId() {
             .toString(36)
             .substring(2, 9)
     );
+
 }
 
 
 /* =========================================================
-   CHAT STORAGE
+   GET ALL CHATS
 ========================================================= */
 
 function getAllChats() {
@@ -602,34 +529,49 @@ function getAllChats() {
     if (!saved) {
 
         return [];
+
     }
 
 
     try {
 
-        return JSON.parse(saved);
+        const chats =
+            JSON.parse(saved);
+
+        return Array.isArray(chats)
+            ? chats
+            : [];
 
     }
 
     catch (error) {
 
+        console.error(
+            "Chat history parsing error:",
+            error
+        );
+
         return [];
+
     }
+
 }
 
 
 /* =========================================================
-   SAVE CHAT
+   SAVE CURRENT CHAT
 ========================================================= */
 
 function saveCurrentChat() {
 
     if (
         !currentUser ||
+        !currentChat ||
         currentChat.length === 0
     ) {
 
         return;
+
     }
 
 
@@ -675,6 +617,7 @@ function saveCurrentChat() {
 
         date:
             new Date().toISOString()
+
     };
 
 
@@ -690,6 +633,7 @@ function saveCurrentChat() {
         chats.push(
             chatObject
         );
+
     }
 
 
@@ -697,6 +641,7 @@ function saveCurrentChat() {
         STORAGE_CHATS,
         JSON.stringify(chats)
     );
+
 }
 
 
@@ -709,6 +654,7 @@ function getRecentChats() {
     if (!currentUser) {
 
         return [];
+
     }
 
 
@@ -752,6 +698,7 @@ function getRecentChats() {
                 -
                 new Date(a.date)
         );
+
 }
 
 
@@ -761,12 +708,21 @@ function getRecentChats() {
 
 function showHistory() {
 
+    /*
+        Save current chat before
+        opening history.
+    */
+
+    saveCurrentChat();
+
+
     renderHistory();
 
 
     historyOverlay.classList.remove(
         "hidden"
     );
+
 }
 
 
@@ -779,6 +735,7 @@ function hideHistory() {
     historyOverlay.classList.add(
         "hidden"
     );
+
 }
 
 
@@ -845,10 +802,9 @@ function renderHistory() {
 
                 </div>
 
-
                 <div class="history-date">
 
-                    ${date}
+                    ${escapeHTML(date)}
 
                 </div>
 
@@ -859,9 +815,7 @@ function renderHistory() {
                 "click",
                 () => {
 
-                    loadChat(
-                        chat
-                    );
+                    loadChat(chat);
 
                     hideHistory();
 
@@ -875,6 +829,7 @@ function renderHistory() {
 
         }
     );
+
 }
 
 
@@ -885,7 +840,9 @@ function renderHistory() {
 function loadChat(chat) {
 
     currentChat =
-        [...chat.messages];
+        Array.isArray(chat.messages)
+            ? [...chat.messages]
+            : [];
 
 
     currentChatId =
@@ -893,6 +850,7 @@ function loadChat(chat) {
 
 
     renderMessages();
+
 }
 
 
@@ -910,28 +868,21 @@ function formatDate(dateString) {
         "en-IN",
         {
 
-            day:
-                "2-digit",
+            day: "2-digit",
 
-            month:
-                "short",
+            month: "short",
 
-            year:
-                "numeric",
+            year: "numeric",
 
-            hour:
-                "2-digit",
+            hour: "2-digit",
 
-            minute:
-                "2-digit"
+            minute: "2-digit"
+
         }
     );
+
 }
 
-
-/* =========================================================
-   SEND MESSAGE
-========================================================= */
 
 /* =========================================================
    SEND MESSAGE
@@ -942,20 +893,41 @@ async function sendMessage() {
     const text =
         chatInput.value.trim();
 
+
+    /*
+        Do nothing for empty message.
+    */
+
     if (!text) {
+
         return;
+
     }
+
+
+    /*
+        User must be logged in.
+    */
 
     if (!currentUser) {
+
         return;
+
     }
 
-    /* Add user message */
+
+    /*
+        Add user message immediately.
+    */
 
     currentChat.push({
+
         role: "user",
+
         content: text
+
     });
+
 
     chatInput.value = "";
 
@@ -965,66 +937,178 @@ async function sendMessage() {
 
 
     /*
-        CONNECT TO CAMPUSIQ BACKEND
-
-        Flask backend:
-        http://127.0.0.1:5000/api/ask
+        Disable button while backend
+        is processing.
     */
+
+    sendButton.disabled = true;
+
+    chatInput.disabled = true;
+
+
+    /*
+        Show temporary loading message.
+    */
+
+    const loadingMessage = {
+
+        role: "assistant",
+
+        content:
+            "Thinking...",
+
+        source:
+            "CampusIQ"
+
+    };
+
+
+    currentChat.push(
+        loadingMessage
+    );
+
+
+    renderMessages();
+
 
     try {
 
+        /*
+            SEND QUESTION TO FLASK
+
+            POST
+            http://127.0.0.1:5000/api/ask
+        */
+
         const response =
             await fetch(
-                "http://127.0.0.1:5000/api/ask",
+                API_URL,
                 {
+
                     method: "POST",
 
                     headers: {
+
                         "Content-Type":
                             "application/json"
+
                     },
 
-                    body: JSON.stringify({
-                        question: text
-                    })
+                    body:
+                        JSON.stringify({
+
+                            question: text,
+
+                            /*
+                                Sending email allows
+                                the backend to know
+                                which user asked.
+                            */
+
+                            user_email:
+                                currentUser.email
+
+                        })
+
                 }
             );
 
 
+        /*
+            Check HTTP response.
+        */
+
         if (!response.ok) {
 
+            let errorMessage =
+                `Backend returned HTTP ${response.status}`;
+
+            try {
+
+                const errorData =
+                    await response.json();
+
+                if (errorData.error) {
+
+                    errorMessage =
+                        errorData.error;
+
+                }
+
+            }
+
+            catch (error) {
+
+                /*
+                    Response wasn't JSON.
+                */
+
+            }
+
+
             throw new Error(
-                "Backend request failed"
+                errorMessage
             );
+
         }
 
+
+        /*
+            Convert response to JSON.
+        */
 
         const data =
             await response.json();
 
 
         /*
-            Backend answer
+            Remove "Thinking..."
+            message.
         */
 
-       currentChat.push({
+        currentChat =
+            currentChat.filter(
+                message =>
+                    message !==
+                    loadingMessage
+            );
 
-    role: "assistant",
 
-    content:
-        data.answer ||
-        "Sorry, I couldn't find an answer.",
+        /*
+            Add actual backend answer.
+        */
 
-    source:
-        data.source ||
-        "Bannari Amman Institute of Technology",
+        currentChat.push({
 
-    source_url:
-        data.source_url || ""
-});
+            role: "assistant",
 
+            content:
+                data.answer ||
+                data.response ||
+                "Sorry, I couldn't find an answer.",
+
+            source:
+                data.source ||
+                "Bannari Amman Institute of Technology",
+
+            source_url:
+                data.source_url ||
+                data.url ||
+                ""
+
+        });
+
+
+        /*
+            Save conversation.
+        */
 
         saveCurrentChat();
+
+
+        /*
+            Render answer.
+        */
 
         renderMessages();
 
@@ -1038,23 +1122,62 @@ async function sendMessage() {
         );
 
 
+        /*
+            Remove loading message.
+        */
+
+        currentChat =
+            currentChat.filter(
+                message =>
+                    message !==
+                    loadingMessage
+            );
+
+
+        /*
+            Add friendly error.
+        */
+
         currentChat.push({
 
             role: "assistant",
 
             content:
-                "Sorry, I couldn't connect to the CampusIQ college knowledge base. Please make sure the backend server is running.",
+                "Sorry, I couldn't connect to the CampusIQ college knowledge base. Please make sure the Flask backend is running on http://127.0.0.1:5000.",
 
             source:
                 "CampusIQ Backend"
+
         });
 
 
         saveCurrentChat();
 
         renderMessages();
+
     }
+
+    finally {
+
+        /*
+            Enable input again.
+        */
+
+        sendButton.disabled = false;
+
+        chatInput.disabled = false;
+
+        chatInput.focus();
+
+    }
+
 }
+
+
+/* =========================================================
+   PROTOTYPE RESPONSE
+   NOT USED WHEN FLASK BACKEND IS CONNECTED
+========================================================= */
 
 function generatePrototypeResponse(question) {
 
@@ -1072,9 +1195,10 @@ function generatePrototypeResponse(question) {
                 "I understand that you're asking about attendance. The official CampusIQ knowledge base will provide the exact attendance rules once the college database is connected.",
 
             source:
-                "College Knowledge Base — To be connected"
+                "College Knowledge Base"
 
         };
+
     }
 
 
@@ -1089,9 +1213,10 @@ function generatePrototypeResponse(question) {
                 "I understand that you're asking about examinations or fees. Once the official college database is connected, I will retrieve the relevant information and show its source.",
 
             source:
-                "College Knowledge Base — To be connected"
+                "College Knowledge Base"
 
         };
+
     }
 
 
@@ -1102,24 +1227,26 @@ function generatePrototypeResponse(question) {
         return {
 
             text:
-                "I understand that you're asking about hostel information. The official hostel documents will be connected to CampusIQ in the next stage.",
+                "I understand that you're asking about hostel information. The official hostel documents will be connected to CampusIQ.",
 
             source:
-                "College Knowledge Base — To be connected"
+                "College Knowledge Base"
 
         };
+
     }
 
 
     return {
 
         text:
-            "I'm ready to answer your campus-related questions. The official Bannari Amman Institute of Technology knowledge base will be connected in the next stage. Once connected, I will answer using the database and show the relevant source.",
+            "I'm ready to answer your campus-related questions using the official Bannari Amman Institute of Technology knowledge base.",
 
         source:
-            "CampusIQ Knowledge Base — To be connected"
+            "CampusIQ Knowledge Base"
 
     };
+
 }
 
 
@@ -1129,9 +1256,12 @@ function generatePrototypeResponse(question) {
 
 function renderMessages() {
 
-    messagesContainer.innerHTML =
-        "";
+    messagesContainer.innerHTML = "";
 
+
+    /*
+        Empty chat
+    */
 
     if (
         currentChat.length === 0
@@ -1141,12 +1271,17 @@ function renderMessages() {
             "flex";
 
         return;
+
     }
 
 
     emptyChat.style.display =
         "none";
 
+
+    /*
+        Render every message.
+    */
 
     currentChat.forEach(
         message => {
@@ -1168,7 +1303,14 @@ function renderMessages() {
 
             const avatar =
                 message.role === "user"
-                    ? "U"
+                    ? (
+                        currentUser &&
+                        currentUser.email
+                            ? currentUser.email
+                                .charAt(0)
+                                .toUpperCase()
+                            : "U"
+                    )
                     : "✦";
 
 
@@ -1180,67 +1322,77 @@ function renderMessages() {
 
             let sourceHTML = "";
 
-if (message.source) {
 
-    if (message.source_url) {
+            /*
+                SOURCE BOX
+            */
 
-        sourceHTML = `
+            if (message.source) {
 
-            <div class="source-box">
+                if (message.source_url) {
 
-                📚
-                <strong>
-                    Source:
-                </strong>
+                    sourceHTML = `
 
-                ${escapeHTML(
-                    message.source
-                )}
+                        <div class="source-box">
 
-                <br>
+                            📚
 
-                🔗
+                            <strong>
+                                Source:
+                            </strong>
 
-                <a
-                    href="${escapeHTML(message.source_url)}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    View Official Source
-                </a>
+                            ${escapeHTML(
+                                message.source
+                            )}
 
-            </div>
+                            <br>
 
-        `;
+                            🔗
 
-    } else {
+                            <a
+                                href="${escapeHTML(message.source_url)}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View Official Source
+                            </a>
 
-        sourceHTML = `
+                        </div>
 
-            <div class="source-box">
+                    `;
 
-                📚
+                }
 
-                <strong>
-                    Source:
-                </strong>
+                else {
 
-                ${escapeHTML(
-                    message.source
-                )}
+                    sourceHTML = `
 
-            </div>
+                        <div class="source-box">
 
-        `;
-    }
-}
+                            📚
+
+                            <strong>
+                                Source:
+                            </strong>
+
+                            ${escapeHTML(
+                                message.source
+                            )}
+
+                        </div>
+
+                    `;
+
+                }
+
+            }
 
 
             wrapper.innerHTML = `
 
                 <div class="message-avatar">
 
-                    ${avatar}
+                    ${escapeHTML(avatar)}
 
                 </div>
 
@@ -1249,7 +1401,7 @@ if (message.source) {
 
                     <div class="message-role">
 
-                        ${role}
+                        ${escapeHTML(role)}
 
                     </div>
 
@@ -1279,6 +1431,7 @@ if (message.source) {
 
 
     scrollToBottom();
+
 }
 
 
@@ -1289,27 +1442,28 @@ if (message.source) {
 function formatMessage(text) {
 
     if (!text) {
+
         return "";
+
     }
 
+
     /*
-        First escape HTML for security.
-        This prevents backend/user text from being
-        interpreted as unwanted HTML.
+        Escape HTML first.
+        This protects the frontend
+        from unwanted HTML injection.
     */
 
     let formatted =
-        escapeHTML(text);
+        escapeHTML(String(text));
 
 
     /*
-        Convert Markdown bold:
+        Markdown bold:
 
         **text**
 
-        into:
-
-        <strong>text</strong>
+        → bold
     */
 
     formatted =
@@ -1320,13 +1474,43 @@ function formatMessage(text) {
 
 
     /*
+        Markdown italic:
+
+        *text*
+
+        → italic
+
+        Keep this simple so URLs
+        are not affected.
+    */
+
+    formatted =
+        formatted.replace(
+            /(^|[\s>])\*([^*\n]+)\*(?=[\s<]|$)/g,
+            "$1<em>$2</em>"
+        );
+
+
+    /*
         Convert URLs into clickable links.
     */
 
     formatted =
         formatted.replace(
             /(https?:\/\/[^\s<]+)/g,
-            '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+            function(url) {
+
+                return `
+                    <a
+                        href="${url}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        ${url}
+                    </a>
+                `;
+
+            }
         );
 
 
@@ -1342,6 +1526,7 @@ function formatMessage(text) {
 
 
     return formatted;
+
 }
 
 
@@ -1362,11 +1547,12 @@ function escapeHTML(text) {
 
 
     return div.innerHTML;
+
 }
 
 
 /* =========================================================
-   SCROLL
+   SCROLL TO BOTTOM
 ========================================================= */
 
 function scrollToBottom() {
@@ -1386,6 +1572,7 @@ function scrollToBottom() {
         },
         50
     );
+
 }
 
 
@@ -1405,6 +1592,11 @@ function setupChatInput() {
         "keydown",
         event => {
 
+            /*
+                Enter = send
+                Shift + Enter = new line
+            */
+
             if (
                 event.key === "Enter" &&
                 !event.shiftKey
@@ -1413,12 +1605,18 @@ function setupChatInput() {
                 event.preventDefault();
 
                 sendMessage();
+
             }
 
         }
     );
+
 }
 
+
+/* =========================================================
+   AUTO RESIZE TEXTAREA
+========================================================= */
 
 function autoResizeTextarea() {
 
@@ -1431,8 +1629,8 @@ function autoResizeTextarea() {
             chatInput.scrollHeight,
             150
         )
-        +
-        "px";
+        + "px";
+
 }
 
 
@@ -1459,6 +1657,13 @@ function setupSuggestionButtons() {
                         button.dataset.question;
 
 
+                    if (!question) {
+
+                        return;
+
+                    }
+
+
                     chatInput.value =
                         question;
 
@@ -1472,6 +1677,7 @@ function setupSuggestionButtons() {
 
         }
     );
+
 }
 
 
@@ -1482,7 +1688,9 @@ function setupSuggestionButtons() {
 function setupEventListeners() {
 
 
-    /* LOGIN */
+    /*
+        LOGIN
+    */
 
     loginButton.addEventListener(
         "click",
@@ -1498,6 +1706,8 @@ function setupEventListeners() {
                 event.key === "Enter"
             ) {
 
+                event.preventDefault();
+
                 login();
 
             }
@@ -1506,7 +1716,9 @@ function setupEventListeners() {
     );
 
 
-    /* WELCOME */
+    /*
+        WELCOME
+    */
 
     enterAppButton.addEventListener(
         "click",
@@ -1514,7 +1726,9 @@ function setupEventListeners() {
     );
 
 
-    /* NEW CHAT */
+    /*
+        NEW CHAT
+    */
 
     newChatButton.addEventListener(
         "click",
@@ -1528,7 +1742,9 @@ function setupEventListeners() {
     );
 
 
-    /* HISTORY */
+    /*
+        HISTORY
+    */
 
     historyButton.addEventListener(
         "click",
@@ -1565,7 +1781,9 @@ function setupEventListeners() {
     );
 
 
-    /* SEND */
+    /*
+        SEND
+    */
 
     sendButton.addEventListener(
         "click",
@@ -1573,7 +1791,9 @@ function setupEventListeners() {
     );
 
 
-    /* LOGOUT */
+    /*
+        LOGOUT
+    */
 
     logoutButton.addEventListener(
         "click",
@@ -1593,7 +1813,9 @@ function setupEventListeners() {
     );
 
 
-    /* THANK YOU */
+    /*
+        THANK YOU
+    */
 
     continueButton.addEventListener(
         "click",
@@ -1601,7 +1823,9 @@ function setupEventListeners() {
     );
 
 
-    /* MOBILE */
+    /*
+        MOBILE MENU
+    */
 
     mobileMenuButton.addEventListener(
         "click",
@@ -1615,7 +1839,9 @@ function setupEventListeners() {
     );
 
 
-    /* ESCAPE */
+    /*
+        ESCAPE KEY
+    */
 
     document.addEventListener(
         "keydown",
@@ -1635,6 +1861,7 @@ function setupEventListeners() {
 
         }
     );
+
 }
 
 
@@ -1652,6 +1879,7 @@ function openMobileSidebar() {
     sidebarOverlay.classList.add(
         "active"
     );
+
 }
 
 
@@ -1665,43 +1893,12 @@ function closeMobileSidebar() {
     sidebarOverlay.classList.remove(
         "active"
     );
+
 }
 
 
 /* =========================================================
-   TAB CLOSE WARNING
-========================================================= */
-
-/*
-    Browser controls the exact text of this warning.
-
-    When the user tries to close/leave the page while
-    logged in, the browser may show its own confirmation.
-
-    Because the user session is stored in sessionStorage,
-    closing the tab ends that session.
-*/
-
-window.addEventListener(
-    "beforeunload",
-    event => {
-
-        if (currentUser) {
-
-            event.preventDefault();
-
-            event.returnValue =
-                "Please logout from CampusIQ before closing.";
-
-            return event.returnValue;
-        }
-
-    }
-);
-
-
-/* =========================================================
-   SAVE CHAT BEFORE PAGE HIDDEN
+   SAVE CHAT WHEN PAGE IS HIDDEN
 ========================================================= */
 
 window.addEventListener(
@@ -1709,6 +1906,71 @@ window.addEventListener(
     () => {
 
         saveCurrentChat();
+
+    }
+);
+
+
+/* =========================================================
+   BEFORE UNLOAD
+========================================================= */
+
+window.addEventListener(
+    "beforeunload",
+    event => {
+
+        /*
+            Save chat before leaving.
+        */
+
+        saveCurrentChat();
+
+
+        /*
+            Warn the user while logged in.
+
+            Note:
+            Modern browsers may ignore the
+            custom text and display their own message.
+        */
+
+        if (currentUser) {
+
+            event.preventDefault();
+
+            event.returnValue = "";
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   GLOBAL ERROR HANDLING
+========================================================= */
+
+window.addEventListener(
+    "error",
+    event => {
+
+        console.error(
+            "CampusIQ JavaScript Error:",
+            event.error || event.message
+        );
+
+    }
+);
+
+
+window.addEventListener(
+    "unhandledrejection",
+    event => {
+
+        console.error(
+            "CampusIQ Promise Error:",
+            event.reason
+        );
 
     }
 );
