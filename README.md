@@ -125,36 +125,6 @@ CampusIQ/
 
 ---
 
-🖥️ Screenshots
-
-🔐 Login Page
-
-Add your login-page screenshot here.
-
-![CampusIQ Login](screenshots/login.png)
-
-💬 Chat Interface
-
-Add your main chat-interface screenshot here.
-
-![CampusIQ Chat](screenshots/chat.png)
-
-🗂️ Chat History
-
-Add your chat-history screenshot here.
-
-![CampusIQ History](screenshots/history.png)
-
-📱 Responsive Interface
-
-Add a mobile/responsive screenshot here if available.
-
-![CampusIQ Responsive](screenshots/mobile.png)
-
-«Create a "screenshots" folder in the project and place your images inside it.»
-
----
-
 ⚙️ Installation & Setup
 
 1. Clone the Repository
@@ -230,24 +200,12 @@ The goal is to make campus information faster to find, easier to understand, and
 ---
 
 👥 Team Details
-
-Team Name
-
-CampusIQ
-
-Institution
-
-Bannari Amman Institute of Technology
-
-Team Members
-
-Role| Name
-👑 Team Captain| Chinthana C.
-👨‍💻 Team Member| Add Member Name
-👨‍💻 Team Member| Add Member Name
-👨‍💻 Team Member| Add Member Name
-
-«Replace the placeholder names with your actual team members before submission.»
+Team Name:       Neo Coders
+Our Application: CampusIQ
+Institution:     Bannari Amman Institute of Technology
+Team Members:    C Chinthana
+                 S Shamyutha
+                 S Sharmitha
 
 ---
 
