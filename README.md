@@ -102,8 +102,8 @@ Team Name: Neo Coders
 Our Application: CampusIQ
 Institution: Bannari Amman Institute of Technology
 Team Members: C Chinthana
-                                   S Shamyutha
-                                   S Sharmitha
+              S Shamyutha
+              S Sharmitha
 ________________________________________
 📜 Project Status
 🚧 Hackathon Project — Under Development
@@ -114,3 +114,9 @@ Developed as part of a hackathon project by students of Bannari Amman Institute 
 ________________________________________
 🎓 CampusIQ
 One Campus. One Knowledge Hub. One Intelligent Assistant.
+
+example search these:
+1. HOD of AIDS Department
+2. Placements
+3. Special Labs
+4. Achievements
