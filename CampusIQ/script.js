@@ -1,1976 +1,712 @@
-/* =========================================================
-   CAMPUSIQ - COMPLETE JAVASCRIPT
-   Frontend ↔ Flask Backend
-========================================================= */
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
 
-/* =========================================================
-   CONFIGURATION
-========================================================= */
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-const OFFICIAL_DOMAIN = "@bitsathy.ac.in";
+    <title>
+        CampusIQ | Bannari Amman Institute of Technology
+    </title>
 
-const HISTORY_DAYS = 15;
+    <link rel="stylesheet"
+          href="style.css">
 
-/*
-    Flask backend API
-*/
-const API_URL = "http://127.0.0.1:5000/api/ask";
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-/*
-    Browser storage
-*/
-const STORAGE_USER = "campusIQ_current_user";
-const STORAGE_CHATS = "campusIQ_chat_history";
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
 
-/* =========================================================
-   DOM ELEMENTS
-========================================================= */
 
-const loginPage = document.getElementById("loginPage");
-const welcomePage = document.getElementById("welcomePage");
-const appPage = document.getElementById("appPage");
+<body>
 
-const emailInput = document.getElementById("emailInput");
-const loginButton = document.getElementById("loginButton");
-const loginError = document.getElementById("loginError");
 
-const enterAppButton = document.getElementById("enterAppButton");
+<!-- ======================================================
+     LOGIN PAGE
+====================================================== -->
 
-const sidebarUserName =
-    document.getElementById("sidebarUserName");
+<div id="loginPage" class="page active">
 
-const sidebarUserEmail =
-    document.getElementById("sidebarUserEmail");
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="background-glow glow-three"></div>
 
-const userAvatar =
-    document.getElementById("userAvatar");
 
-const newChatButton =
-    document.getElementById("newChatButton");
+    <main class="login-container">
 
-const historyButton =
-    document.getElementById("historyButton");
+        <div class="college-name">
+            BANNARI AMMAN INSTITUTE OF TECHNOLOGY
+        </div>
 
-const logoutButton =
-    document.getElementById("logoutButton");
 
-const chatInput =
-    document.getElementById("chatInput");
+        <div class="college-icon">
+            🎓
+        </div>
 
-const sendButton =
-    document.getElementById("sendButton");
 
-const messagesContainer =
-    document.getElementById("messagesContainer");
+        <h1 class="campus-logo">
+            Campus<span>IQ</span>
+        </h1>
 
-const emptyChat =
-    document.getElementById("emptyChat");
 
-const historyOverlay =
-    document.getElementById("historyOverlay");
+        <p class="login-tagline">
+            Your Intelligent Campus Companion
+        </p>
 
-const historyList =
-    document.getElementById("historyList");
 
-const closeHistory =
-    document.getElementById("closeHistory");
+        <p class="login-description">
+            Get quick and reliable answers to your
+            campus-related questions in one place.
+        </p>
 
-const logoutModal =
-    document.getElementById("logoutModal");
 
-const cancelLogout =
-    document.getElementById("cancelLogout");
+        <div class="login-card">
 
-const confirmLogout =
-    document.getElementById("confirmLogout");
+            <label for="emailInput">
+                Official College Email
+            </label>
 
-const thankYouModal =
-    document.getElementById("thankYouModal");
 
-const continueButton =
-    document.getElementById("continueButton");
+            <div class="email-wrapper">
 
-const mobileMenuButton =
-    document.getElementById("mobileMenuButton");
+                <span class="input-icon">
+                    ✉
+                </span>
 
-const sidebar =
-    document.getElementById("sidebar");
-
-const sidebarOverlay =
-    document.getElementById("sidebarOverlay");
-
-
-/* =========================================================
-   APPLICATION STATE
-========================================================= */
-
-let currentUser = null;
-let currentChat = [];
-let currentChatId = null;
-
-
-/* =========================================================
-   INITIALIZE
-========================================================= */
-
-document.addEventListener(
-    "DOMContentLoaded",
-    initialize
-);
-
-
-function initialize() {
-
-    loadUser();
-
-    setupEventListeners();
-
-    setupSuggestionButtons();
-
-    setupChatInput();
-
-}
-
-
-/* =========================================================
-   USER
-========================================================= */
-
-function loadUser() {
-
-    const savedUser =
-        sessionStorage.getItem(STORAGE_USER);
-
-    if (!savedUser) {
-
-        showLoginPage();
-
-        return;
-    }
-
-    try {
-
-        currentUser =
-            JSON.parse(savedUser);
-
-        showWelcomePage();
-
-    }
-
-    catch (error) {
-
-        console.error(
-            "User loading error:",
-            error
-        );
-
-        sessionStorage.removeItem(
-            STORAGE_USER
-        );
-
-        showLoginPage();
-
-    }
-}
-
-
-/* =========================================================
-   GET NAME FROM EMAIL
-========================================================= */
-
-function getNameFromEmail(email) {
-
-    let username =
-        email.split("@")[0];
-
-    username =
-        username.replace(
-            /[._-]+/g,
-            " "
-        );
-
-    return username
-        .trim()
-        .split(" ")
-        .map(
-            word =>
-                word.charAt(0).toUpperCase()
-                +
-                word.slice(1)
-        )
-        .join(" ");
-}
-
-
-/* =========================================================
-   LOGIN
-========================================================= */
-
-function login() {
-
-    const email =
-        emailInput.value
-            .trim()
-            .toLowerCase();
-
-    loginError.textContent = "";
-
-    if (!email) {
-
-        loginError.textContent =
-            "Please enter your official college email.";
-
-        emailInput.focus();
-
-        return;
-    }
-
-
-    if (!isValidEmail(email)) {
-
-        loginError.innerHTML =
-            "🚫 User Unauthorized<br>" +
-            "<small>" +
-            "CampusIQ is accessible only with an official " +
-            "@bitsathy.ac.in email ID." +
-            "</small>";
-
-        emailInput.focus();
-
-        return;
-    }
-
-
-    const name =
-        getNameFromEmail(email);
-
-
-    currentUser = {
-
-        email: email,
-
-        name: name,
-
-        loginTime:
-            new Date().toISOString()
-
-    };
-
-
-    sessionStorage.setItem(
-        STORAGE_USER,
-        JSON.stringify(currentUser)
-    );
-
-
-    currentChat = [];
-
-    currentChatId = null;
-
-
-    showWelcomePage();
-
-}
-
-
-/* =========================================================
-   VALIDATE EMAIL
-========================================================= */
-
-function isValidEmail(email) {
-
-    const emailPattern =
-        /^[^\s@]+@bitsathy\.ac\.in$/i;
-
-    return emailPattern.test(email);
-
-}
-
-
-/* =========================================================
-   SHOW LOGIN
-========================================================= */
-
-function showLoginPage() {
-
-    loginPage.classList.add("active");
-
-    welcomePage.classList.remove("active");
-
-    appPage.classList.remove("active");
-
-}
-
-
-/* =========================================================
-   SHOW WELCOME
-========================================================= */
-
-function showWelcomePage() {
-
-    loginPage.classList.remove("active");
-
-    welcomePage.classList.add("active");
-
-    appPage.classList.remove("active");
-
-}
-
-
-/* =========================================================
-   SHOW APPLICATION
-========================================================= */
-
-function showApplication() {
-
-    loginPage.classList.remove("active");
-
-    welcomePage.classList.remove("active");
-
-    appPage.classList.add("active");
-
-
-    updateUserUI();
-
-    startNewChat();
-
-}
-
-
-/* =========================================================
-   UPDATE USER UI
-========================================================= */
-
-function updateUserUI() {
-
-    if (!currentUser) {
-
-        return;
-    }
-
-
-    /*
-        Your HTML contains both
-        user-name and user-email.
-
-        We display the logged-in
-        college email in the first field.
-    */
-
-    sidebarUserName.textContent =
-        currentUser.email;
-
-
-    sidebarUserEmail.style.display =
-        "none";
-
-
-    userAvatar.textContent =
-        currentUser.email
-            .charAt(0)
-            .toUpperCase();
-
-}
-
-
-/* =========================================================
-   LOGOUT MODAL
-========================================================= */
-
-function openLogoutModal() {
-
-    logoutModal.classList.remove(
-        "hidden"
-    );
-
-}
-
-
-function closeLogoutModal() {
-
-    logoutModal.classList.add(
-        "hidden"
-    );
-
-}
-
-
-/* =========================================================
-   LOGOUT
-========================================================= */
-
-function logout() {
-
-    /*
-        Save current conversation
-        before logging out.
-    */
-
-    saveCurrentChat();
-
-
-    /*
-        Remove active session.
-    */
-
-    sessionStorage.removeItem(
-        STORAGE_USER
-    );
-
-
-    currentUser = null;
-
-    currentChat = [];
-
-    currentChatId = null;
-
-
-    closeLogoutModal();
-
-
-    appPage.classList.remove(
-        "active"
-    );
-
-    welcomePage.classList.remove(
-        "active"
-    );
-
-    loginPage.classList.add(
-        "active"
-    );
-
-
-    emailInput.value = "";
-
-    loginError.textContent = "";
-
-
-    /*
-        Show thank-you modal.
-    */
-
-    thankYouModal.classList.remove(
-        "hidden"
-    );
-
-}
-
-
-/* =========================================================
-   THANK YOU MODAL
-========================================================= */
-
-function closeThankYou() {
-
-    thankYouModal.classList.add(
-        "hidden"
-    );
-
-}
-
-
-/* =========================================================
-   NEW CHAT
-========================================================= */
-
-function startNewChat() {
-
-    /*
-        Save previous chat first.
-    */
-
-    saveCurrentChat();
-
-
-    currentChat = [];
-
-    currentChatId =
-        generateChatId();
-
-
-    renderMessages();
-
-}
-
-
-/* =========================================================
-   GENERATE CHAT ID
-========================================================= */
-
-function generateChatId() {
-
-    return (
-        "chat_" +
-        Date.now() +
-        "_" +
-        Math.random()
-            .toString(36)
-            .substring(2, 9)
-    );
-
-}
-
-
-/* =========================================================
-   GET ALL CHATS
-========================================================= */
-
-function getAllChats() {
-
-    const saved =
-        localStorage.getItem(
-            STORAGE_CHATS
-        );
-
-
-    if (!saved) {
-
-        return [];
-
-    }
-
-
-    try {
-
-        const chats =
-            JSON.parse(saved);
-
-        return Array.isArray(chats)
-            ? chats
-            : [];
-
-    }
-
-    catch (error) {
-
-        console.error(
-            "Chat history parsing error:",
-            error
-        );
-
-        return [];
-
-    }
-
-}
-
-
-/* =========================================================
-   SAVE CURRENT CHAT
-========================================================= */
-
-function saveCurrentChat() {
-
-    if (
-        !currentUser ||
-        !currentChat ||
-        currentChat.length === 0
-    ) {
-
-        return;
-
-    }
-
-
-    let chats =
-        getAllChats();
-
-
-    const existingIndex =
-        chats.findIndex(
-            chat =>
-                chat.id === currentChatId
-        );
-
-
-    const firstUserMessage =
-        currentChat.find(
-            message =>
-                message.role === "user"
-        );
-
-
-    const title =
-        firstUserMessage
-            ? firstUserMessage.content
-                .substring(0, 50)
-            : "New Chat";
-
-
-    const chatObject = {
-
-        id:
-            currentChatId ||
-            generateChatId(),
-
-        userEmail:
-            currentUser.email,
-
-        title:
-            title,
-
-        messages:
-            currentChat,
-
-        date:
-            new Date().toISOString()
-
-    };
-
-
-    if (existingIndex >= 0) {
-
-        chats[existingIndex] =
-            chatObject;
-
-    }
-
-    else {
-
-        chats.push(
-            chatObject
-        );
-
-    }
-
-
-    localStorage.setItem(
-        STORAGE_CHATS,
-        JSON.stringify(chats)
-    );
-
-}
-
-
-/* =========================================================
-   GET LAST 15 DAYS HISTORY
-========================================================= */
-
-function getRecentChats() {
-
-    if (!currentUser) {
-
-        return [];
-
-    }
-
-
-    const chats =
-        getAllChats();
-
-
-    const now =
-        new Date();
-
-
-    const cutoff =
-        new Date(
-            now.getTime()
-            -
-            HISTORY_DAYS *
-            24 *
-            60 *
-            60 *
-            1000
-        );
-
-
-    return chats
-
-        .filter(
-            chat =>
-                chat.userEmail ===
-                currentUser.email
-        )
-
-        .filter(
-            chat =>
-                new Date(chat.date)
-                >= cutoff
-        )
-
-        .sort(
-            (a, b) =>
-                new Date(b.date)
-                -
-                new Date(a.date)
-        );
-
-}
-
-
-/* =========================================================
-   SHOW HISTORY
-========================================================= */
-
-function showHistory() {
-
-    /*
-        Save current chat before
-        opening history.
-    */
-
-    saveCurrentChat();
-
-
-    renderHistory();
-
-
-    historyOverlay.classList.remove(
-        "hidden"
-    );
-
-}
-
-
-/* =========================================================
-   CLOSE HISTORY
-========================================================= */
-
-function hideHistory() {
-
-    historyOverlay.classList.add(
-        "hidden"
-    );
-
-}
-
-
-/* =========================================================
-   RENDER HISTORY
-========================================================= */
-
-function renderHistory() {
-
-    historyList.innerHTML = "";
-
-
-    const chats =
-        getRecentChats();
-
-
-    if (chats.length === 0) {
-
-        historyList.innerHTML = `
-
-            <div class="no-history">
-
-                🕘
-
-                <br>
-                <br>
-
-                No conversations found
-                in the last 15 days.
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="yourname@bitsathy.ac.in"
+                    autocomplete="email"
+                >
 
             </div>
 
-        `;
 
-        return;
-    }
-
-
-    chats.forEach(
-        chat => {
-
-            const item =
-                document.createElement(
-                    "div"
-                );
+            <div id="loginError"
+                 class="login-error">
+            </div>
 
 
-            item.className =
-                "history-item";
+            <button
+                id="loginButton"
+                class="primary-button">
+
+                <span>
+                    Enter CampusIQ
+                </span>
+
+                <span class="button-arrow">
+                    →
+                </span>
+
+            </button>
 
 
-            const date =
-                formatDate(
-                    chat.date
-                );
+            <p class="login-note">
+                🔒 Access restricted to official
+                <strong>@bitsathy.ac.in</strong>
+                accounts
+            </p>
+
+        </div>
 
 
-            item.innerHTML = `
+        <div class="login-footer">
 
-                <div class="history-title">
+            © 2026 CampusIQ
 
-                    💬
-                    ${escapeHTML(chat.title)}
+            <span>•</span>
+
+            Bannari Amman Institute of Technology
+
+        </div>
+
+    </main>
+
+</div>
+
+
+
+<!-- ======================================================
+     WELCOME PAGE
+====================================================== -->
+
+<div id="welcomePage"
+     class="page">
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+
+    <div class="welcome-container">
+
+        <div class="welcome-logo">
+            ✨
+        </div>
+
+
+        <p class="welcome-small">
+            CAMPUSIQ
+        </p>
+
+
+        <!-- ONLY WELCOME BACK -->
+        <h1>
+            Welcome back!
+        </h1>
+
+
+        <p class="welcome-description">
+            Your campus information is just a
+            conversation away.
+        </p>
+
+
+        <button
+            id="enterAppButton"
+            class="primary-button welcome-button">
+
+            <span>
+                Enter CampusIQ
+            </span>
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- ======================================================
+     MAIN APPLICATION
+====================================================== -->
+
+<div id="appPage"
+     class="application-page">
+
+
+    <!-- ==================================================
+         SIDEBAR
+    ================================================== -->
+
+    <aside id="sidebar"
+           class="sidebar">
+
+
+        <div class="sidebar-top">
+
+
+            <!-- BRAND -->
+
+            <div class="sidebar-brand">
+
+                <div class="sidebar-brand-icon">
+                    🎓
+                </div>
+
+
+                <div>
+
+                    <div class="sidebar-app-name">
+                        Campus<span>IQ</span>
+                    </div>
+
+
+                    <div class="sidebar-college">
+                        BANNARI AMMAN INSTITUTE
+                        OF TECHNOLOGY
+                    </div>
 
                 </div>
 
-                <div class="history-date">
+            </div>
 
-                    ${escapeHTML(date)}
 
-                </div>
 
-            `;
+            <!-- NEW CHAT -->
 
+            <button
+                id="newChatButton"
+                class="new-chat-button">
 
-            item.addEventListener(
-                "click",
-                () => {
+                <span class="new-chat-icon">
+                    +
+                </span>
 
-                    loadChat(chat);
+                <span>
+                    New Chat
+                </span>
 
-                    hideHistory();
+            </button>
 
-                }
-            );
 
 
-            historyList.appendChild(
-                item
-            );
+            <!-- NAVIGATION -->
 
-        }
-    );
+            <nav class="sidebar-navigation">
 
-}
+                <button
+                    id="historyButton"
+                    class="sidebar-nav-button">
 
+                    <span>
+                        ◷
+                    </span>
 
-/* =========================================================
-   LOAD CHAT
-========================================================= */
+                    <span>
+                        History
+                    </span>
 
-function loadChat(chat) {
+                </button>
 
-    currentChat =
-        Array.isArray(chat.messages)
-            ? [...chat.messages]
-            : [];
+            </nav>
 
 
-    currentChatId =
-        chat.id;
 
+            <!-- USER -->
 
-    renderMessages();
+            <div class="sidebar-user">
 
-}
+                <div
+                    class="user-avatar"
+                    id="userAvatar">
 
-
-/* =========================================================
-   FORMAT DATE
-========================================================= */
-
-function formatDate(dateString) {
-
-    const date =
-        new Date(dateString);
-
-
-    return date.toLocaleString(
-        "en-IN",
-        {
-
-            day: "2-digit",
-
-            month: "short",
-
-            year: "numeric",
-
-            hour: "2-digit",
-
-            minute: "2-digit"
-
-        }
-    );
-
-}
-
-
-/* =========================================================
-   SEND MESSAGE
-========================================================= */
-
-async function sendMessage() {
-
-    const text =
-        chatInput.value.trim();
-
-
-    /*
-        Do nothing for empty message.
-    */
-
-    if (!text) {
-
-        return;
-
-    }
-
-
-    /*
-        User must be logged in.
-    */
-
-    if (!currentUser) {
-
-        return;
-
-    }
-
-
-    /*
-        Add user message immediately.
-    */
-
-    currentChat.push({
-
-        role: "user",
-
-        content: text
-
-    });
-
-
-    chatInput.value = "";
-
-    autoResizeTextarea();
-
-    renderMessages();
-
-
-    /*
-        Disable button while backend
-        is processing.
-    */
-
-    sendButton.disabled = true;
-
-    chatInput.disabled = true;
-
-
-    /*
-        Show temporary loading message.
-    */
-
-    const loadingMessage = {
-
-        role: "assistant",
-
-        content:
-            "Thinking...",
-
-        source:
-            "CampusIQ"
-
-    };
-
-
-    currentChat.push(
-        loadingMessage
-    );
-
-
-    renderMessages();
-
-
-    try {
-
-        /*
-            SEND QUESTION TO FLASK
-
-            POST
-            http://127.0.0.1:5000/api/ask
-        */
-
-        const response =
-            await fetch(
-                API_URL,
-                {
-
-                    method: "POST",
-
-                    headers: {
-
-                        "Content-Type":
-                            "application/json"
-
-                    },
-
-                    body:
-                        JSON.stringify({
-
-                            question: text,
-
-                            /*
-                                Sending email allows
-                                the backend to know
-                                which user asked.
-                            */
-
-                            user_email:
-                                currentUser.email
-
-                        })
-
-                }
-            );
-
-
-        /*
-            Check HTTP response.
-        */
-
-        if (!response.ok) {
-
-            let errorMessage =
-                `Backend returned HTTP ${response.status}`;
-
-            try {
-
-                const errorData =
-                    await response.json();
-
-                if (errorData.error) {
-
-                    errorMessage =
-                        errorData.error;
-
-                }
-
-            }
-
-            catch (error) {
-
-                /*
-                    Response wasn't JSON.
-                */
-
-            }
-
-
-            throw new Error(
-                errorMessage
-            );
-
-        }
-
-
-        /*
-            Convert response to JSON.
-        */
-
-        const data =
-            await response.json();
-
-
-        /*
-            Remove "Thinking..."
-            message.
-        */
-
-        currentChat =
-            currentChat.filter(
-                message =>
-                    message !==
-                    loadingMessage
-            );
-
-
-        /*
-            Add actual backend answer.
-        */
-
-        currentChat.push({
-
-            role: "assistant",
-
-            content:
-                data.answer ||
-                data.response ||
-                "Sorry, I couldn't find an answer.",
-
-            source:
-                data.source ||
-                "Bannari Amman Institute of Technology",
-
-            source_url:
-                data.source_url ||
-                data.url ||
-                ""
-
-        });
-
-
-        /*
-            Save conversation.
-        */
-
-        saveCurrentChat();
-
-
-        /*
-            Render answer.
-        */
-
-        renderMessages();
-
-    }
-
-    catch (error) {
-
-        console.error(
-            "CampusIQ Backend Error:",
-            error
-        );
-
-
-        /*
-            Remove loading message.
-        */
-
-        currentChat =
-            currentChat.filter(
-                message =>
-                    message !==
-                    loadingMessage
-            );
-
-
-        /*
-            Add friendly error.
-        */
-
-        currentChat.push({
-
-            role: "assistant",
-
-            content:
-                "Sorry, I couldn't connect to the CampusIQ college knowledge base. Please make sure the Flask backend is running on http://127.0.0.1:5000.",
-
-            source:
-                "CampusIQ Backend"
-
-        });
-
-
-        saveCurrentChat();
-
-        renderMessages();
-
-    }
-
-    finally {
-
-        /*
-            Enable input again.
-        */
-
-        sendButton.disabled = false;
-
-        chatInput.disabled = false;
-
-        chatInput.focus();
-
-    }
-
-}
-
-
-/* =========================================================
-   PROTOTYPE RESPONSE
-   NOT USED WHEN FLASK BACKEND IS CONNECTED
-========================================================= */
-
-function generatePrototypeResponse(question) {
-
-    const lower =
-        question.toLowerCase();
-
-
-    if (
-        lower.includes("attendance")
-    ) {
-
-        return {
-
-            text:
-                "I understand that you're asking about attendance. The official CampusIQ knowledge base will provide the exact attendance rules once the college database is connected.",
-
-            source:
-                "College Knowledge Base"
-
-        };
-
-    }
-
-
-    if (
-        lower.includes("exam") ||
-        lower.includes("fee")
-    ) {
-
-        return {
-
-            text:
-                "I understand that you're asking about examinations or fees. Once the official college database is connected, I will retrieve the relevant information and show its source.",
-
-            source:
-                "College Knowledge Base"
-
-        };
-
-    }
-
-
-    if (
-        lower.includes("hostel")
-    ) {
-
-        return {
-
-            text:
-                "I understand that you're asking about hostel information. The official hostel documents will be connected to CampusIQ.",
-
-            source:
-                "College Knowledge Base"
-
-        };
-
-    }
-
-
-    return {
-
-        text:
-            "I'm ready to answer your campus-related questions using the official Bannari Amman Institute of Technology knowledge base.",
-
-        source:
-            "CampusIQ Knowledge Base"
-
-    };
-
-}
-
-
-/* =========================================================
-   RENDER MESSAGES
-========================================================= */
-
-function renderMessages() {
-
-    messagesContainer.innerHTML = "";
-
-
-    /*
-        Empty chat
-    */
-
-    if (
-        currentChat.length === 0
-    ) {
-
-        emptyChat.style.display =
-            "flex";
-
-        return;
-
-    }
-
-
-    emptyChat.style.display =
-        "none";
-
-
-    /*
-        Render every message.
-    */
-
-    currentChat.forEach(
-        message => {
-
-            const wrapper =
-                document.createElement(
-                    "div"
-                );
-
-
-            wrapper.className =
-                "message " +
-                (
-                    message.role === "user"
-                        ? "user-message"
-                        : "assistant-message"
-                );
-
-
-            const avatar =
-                message.role === "user"
-                    ? (
-                        currentUser &&
-                        currentUser.email
-                            ? currentUser.email
-                                .charAt(0)
-                                .toUpperCase()
-                            : "U"
-                    )
-                    : "✦";
-
-
-            const role =
-                message.role === "user"
-                    ? "You"
-                    : "CampusIQ";
-
-
-            let sourceHTML = "";
-
-
-            /*
-                SOURCE BOX
-            */
-
-            if (message.source) {
-
-                if (message.source_url) {
-
-                    sourceHTML = `
-
-                        <div class="source-box">
-
-                            📚
-
-                            <strong>
-                                Source:
-                            </strong>
-
-                            ${escapeHTML(
-                                message.source
-                            )}
-
-                            <br>
-
-                            🔗
-
-                            <a
-                                href="${escapeHTML(message.source_url)}"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                View Official Source
-                            </a>
-
-                        </div>
-
-                    `;
-
-                }
-
-                else {
-
-                    sourceHTML = `
-
-                        <div class="source-box">
-
-                            📚
-
-                            <strong>
-                                Source:
-                            </strong>
-
-                            ${escapeHTML(
-                                message.source
-                            )}
-
-                        </div>
-
-                    `;
-
-                }
-
-            }
-
-
-            wrapper.innerHTML = `
-
-                <div class="message-avatar">
-
-                    ${escapeHTML(avatar)}
+                    U
 
                 </div>
 
 
-                <div class="message-content">
+                <div class="user-details">
 
-                    <div class="message-role">
+                    <div
+                        class="user-name"
+                        id="sidebarUserName">
 
-                        ${escapeHTML(role)}
+                        User
 
                     </div>
 
 
-                    <div>
+                    <div
+                        class="user-email"
+                        id="sidebarUserEmail">
 
-                        ${formatMessage(
-                            message.content
-                        )}
+                        user@bitsathy.ac.in
 
                     </div>
 
+                </div>
 
-                    ${sourceHTML}
+            </div>
+
+        </div>
+
+
+
+        <!-- LOGOUT -->
+
+        <div class="sidebar-bottom">
+
+            <button
+                id="logoutButton"
+                class="logout-button">
+
+                <span>
+                    ↪
+                </span>
+
+                <span>
+                    Logout
+                </span>
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ==================================================
+         MAIN CONTENT
+    ================================================== -->
+
+    <main class="main-content">
+
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <button
+                class="mobile-menu-button"
+                id="mobileMenuButton">
+
+                ☰
+
+            </button>
+
+
+            <div class="topbar-brand">
+
+                <div class="topbar-icon">
+                    ✦
+                </div>
+
+
+                <div>
+
+                    <div class="topbar-title">
+                        CampusIQ
+                    </div>
+
+
+                    <div class="topbar-subtitle">
+                        Intelligent Campus Assistant
+                    </div>
 
                 </div>
 
-            `;
+            </div>
 
 
-            messagesContainer.appendChild(
-                wrapper
-            );
+            <div class="topbar-status">
 
-        }
-    );
+                <span class="status-dot"></span>
 
+                Online
 
-    scrollToBottom();
+            </div>
 
-}
+        </header>
 
 
-/* =========================================================
-   FORMAT MESSAGE
-========================================================= */
 
-function formatMessage(text) {
+        <!-- CHAT AREA -->
 
-    if (!text) {
+        <section
+            id="chatArea"
+            class="chat-area">
 
-        return "";
 
-    }
+            <!-- EMPTY CHAT -->
 
+            <div
+                id="emptyChat"
+                class="empty-chat">
 
-    /*
-        Escape HTML first.
-        This protects the frontend
-        from unwanted HTML injection.
-    */
+                <div class="empty-chat-icon">
+                    🧠
+                </div>
 
-    let formatted =
-        escapeHTML(String(text));
 
+                <h1>
+                    How can I help you?
+                </h1>
 
-    /*
-        Markdown bold:
 
-        **text**
+                <p>
+                    Ask anything about
+                    Bannari Amman Institute of Technology.
+                </p>
 
-        → bold
-    */
 
-    formatted =
-        formatted.replace(
-            /\*\*(.*?)\*\*/g,
-            "<strong>$1</strong>"
-        );
 
+                <!-- SUGGESTIONS -->
 
-    /*
-        Markdown italic:
+                <div class="suggestions">
 
-        *text*
 
-        → italic
+                    <button
+                        class="suggestion-card"
+                        data-question="What are the academic regulations?">
 
-        Keep this simple so URLs
-        are not affected.
-    */
+                        <span class="suggestion-icon">
+                            📚
+                        </span>
 
-    formatted =
-        formatted.replace(
-            /(^|[\s>])\*([^*\n]+)\*(?=[\s<]|$)/g,
-            "$1<em>$2</em>"
-        );
+                        <span>
+                            Academic Information
+                        </span>
 
+                    </button>
 
-    /*
-        Convert URLs into clickable links.
-    */
 
-    formatted =
-        formatted.replace(
-            /(https?:\/\/[^\s<]+)/g,
-            function(url) {
 
-                return `
-                    <a
-                        href="${url}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        ${url}
-                    </a>
-                `;
+                    <button
+                        class="suggestion-card"
+                        data-question="When is the examination fee deadline?">
 
-            }
-        );
+                        <span class="suggestion-icon">
+                            📝
+                        </span>
 
+                        <span>
+                            Examination & Fees
+                        </span>
 
-    /*
-        Convert line breaks.
-    */
+                    </button>
 
-    formatted =
-        formatted.replace(
-            /\n/g,
-            "<br>"
-        );
 
 
-    return formatted;
+                    <button
+                        class="suggestion-card"
+                        data-question="What are the hostel rules?">
 
-}
+                        <span class="suggestion-icon">
+                            🏠
+                        </span>
 
+                        <span>
+                            Hostel Information
+                        </span>
 
-/* =========================================================
-   ESCAPE HTML
-========================================================= */
+                    </button>
 
-function escapeHTML(text) {
 
-    const div =
-        document.createElement(
-            "div"
-        );
 
+                    <button
+                        class="suggestion-card"
+                        data-question="How can I contact the placement cell?">
 
-    div.textContent =
-        text;
+                        <span class="suggestion-icon">
+                            💼
+                        </span>
 
+                        <span>
+                            Placement
+                        </span>
 
-    return div.innerHTML;
+                    </button>
 
-}
+                </div>
 
+            </div>
 
-/* =========================================================
-   SCROLL TO BOTTOM
-========================================================= */
 
-function scrollToBottom() {
 
-    const chatArea =
-        document.getElementById(
-            "chatArea"
-        );
+            <!-- MESSAGES -->
 
+            <div
+                id="messagesContainer"
+                class="messages-container">
+            </div>
 
-    setTimeout(
-        () => {
+        </section>
 
-            chatArea.scrollTop =
-                chatArea.scrollHeight;
 
-        },
-        50
-    );
 
-}
+        <!-- CHAT INPUT -->
 
+        <div class="chat-input-area">
 
-/* =========================================================
-   CHAT INPUT
-========================================================= */
+            <div class="chat-input-container">
 
-function setupChatInput() {
+                <textarea
+                    id="chatInput"
+                    rows="1"
+                    placeholder="Ask CampusIQ anything..."
+                ></textarea>
 
-    chatInput.addEventListener(
-        "input",
-        autoResizeTextarea
-    );
 
+                <button
+                    id="sendButton"
+                    class="send-button">
 
-    chatInput.addEventListener(
-        "keydown",
-        event => {
+                    ↑
 
-            /*
-                Enter = send
-                Shift + Enter = new line
-            */
+                </button>
 
-            if (
-                event.key === "Enter" &&
-                !event.shiftKey
-            ) {
+            </div>
 
-                event.preventDefault();
 
-                sendMessage();
+            <div class="input-disclaimer">
 
-            }
+                CampusIQ provides information based on
+                the official college knowledge base.
 
-        }
-    );
+            </div>
 
-}
+        </div>
 
+    </main>
 
-/* =========================================================
-   AUTO RESIZE TEXTAREA
-========================================================= */
 
-function autoResizeTextarea() {
 
-    chatInput.style.height =
-        "auto";
+    <!-- ==================================================
+         HISTORY PANEL
+    ================================================== -->
 
+    <div
+        id="historyOverlay"
+        class="overlay hidden">
 
-    chatInput.style.height =
-        Math.min(
-            chatInput.scrollHeight,
-            150
-        )
-        + "px";
+        <div class="history-panel">
 
-}
 
+            <div class="history-header">
 
-/* =========================================================
-   SUGGESTION BUTTONS
-========================================================= */
+                <div>
 
-function setupSuggestionButtons() {
+                    <h2>
+                        Chat History
+                    </h2>
 
-    const buttons =
-        document.querySelectorAll(
-            ".suggestion-card"
-        );
+                    <p>
+                        Conversations from the last 15 days
+                    </p>
 
+                </div>
 
-    buttons.forEach(
-        button => {
 
-            button.addEventListener(
-                "click",
-                () => {
+                <button
+                    id="closeHistory"
+                    class="close-button">
 
-                    const question =
-                        button.dataset.question;
+                    ×
 
+                </button>
 
-                    if (!question) {
+            </div>
 
-                        return;
 
-                    }
+            <div
+                id="historyList"
+                class="history-list">
+            </div>
 
+        </div>
 
-                    chatInput.value =
-                        question;
+    </div>
 
 
-                    autoResizeTextarea();
 
-                    sendMessage();
+    <!-- ==================================================
+         LOGOUT MODAL
+    ================================================== -->
 
-                }
-            );
+    <div
+        id="logoutModal"
+        class="modal-overlay hidden">
 
-        }
-    );
+        <div class="modal">
 
-}
+            <div class="modal-icon">
+                🚪
+            </div>
 
 
-/* =========================================================
-   EVENT LISTENERS
-========================================================= */
+            <h2>
+                Logout from CampusIQ?
+            </h2>
 
-function setupEventListeners() {
 
+            <p>
+                Are you sure you want to end your
+                current session?
+            </p>
 
-    /*
-        LOGIN
-    */
 
-    loginButton.addEventListener(
-        "click",
-        login
-    );
+            <div class="modal-buttons">
 
+                <button
+                    id="cancelLogout"
+                    class="secondary-button">
 
-    emailInput.addEventListener(
-        "keydown",
-        event => {
+                    Stay Logged In
 
-            if (
-                event.key === "Enter"
-            ) {
+                </button>
 
-                event.preventDefault();
 
-                login();
+                <button
+                    id="confirmLogout"
+                    class="danger-button">
 
-            }
+                    Logout
 
-        }
-    );
+                </button>
 
+            </div>
 
-    /*
-        WELCOME
-    */
+        </div>
 
-    enterAppButton.addEventListener(
-        "click",
-        showApplication
-    );
+    </div>
 
 
-    /*
-        NEW CHAT
-    */
 
-    newChatButton.addEventListener(
-        "click",
-        () => {
+    <!-- ==================================================
+         THANK YOU MODAL
+    ================================================== -->
 
-            startNewChat();
+    <div
+        id="thankYouModal"
+        class="modal-overlay hidden">
 
-            closeMobileSidebar();
+        <div class="modal thank-you-modal">
 
-        }
-    );
+            <div class="thank-you-icon">
+                ✨
+            </div>
 
 
-    /*
-        HISTORY
-    */
+            <h2>
+                Thank You!
+            </h2>
 
-    historyButton.addEventListener(
-        "click",
-        () => {
 
-            showHistory();
+            <p>
+                Thank you for using
+                <strong>CampusIQ</strong>.
+            </p>
 
-            closeMobileSidebar();
 
-        }
-    );
+            <p class="small-text">
+                You have been safely logged out.
+            </p>
 
 
-    closeHistory.addEventListener(
-        "click",
-        hideHistory
-    );
+            <button
+                id="continueButton"
+                class="primary-button">
 
+                Continue
 
-    historyOverlay.addEventListener(
-        "click",
-        event => {
+            </button>
 
-            if (
-                event.target ===
-                historyOverlay
-            ) {
+        </div>
 
-                hideHistory();
+    </div>
 
-            }
 
-        }
-    );
 
+    <!-- MOBILE SIDEBAR OVERLAY -->
 
-    /*
-        SEND
-    */
+    <div
+        id="sidebarOverlay"
+        class="sidebar-overlay">
+    </div>
 
-    sendButton.addEventListener(
-        "click",
-        sendMessage
-    );
 
+</div>
 
-    /*
-        LOGOUT
-    */
 
-    logoutButton.addEventListener(
-        "click",
-        openLogoutModal
-    );
 
+<script src="script.js"></script>
 
-    cancelLogout.addEventListener(
-        "click",
-        closeLogoutModal
-    );
+</body>
 
-
-    confirmLogout.addEventListener(
-        "click",
-        logout
-    );
-
-
-    /*
-        THANK YOU
-    */
-
-    continueButton.addEventListener(
-        "click",
-        closeThankYou
-    );
-
-
-    /*
-        MOBILE MENU
-    */
-
-    mobileMenuButton.addEventListener(
-        "click",
-        openMobileSidebar
-    );
-
-
-    sidebarOverlay.addEventListener(
-        "click",
-        closeMobileSidebar
-    );
-
-
-    /*
-        ESCAPE KEY
-    */
-
-    document.addEventListener(
-        "keydown",
-        event => {
-
-            if (
-                event.key === "Escape"
-            ) {
-
-                hideHistory();
-
-                closeLogoutModal();
-
-                closeMobileSidebar();
-
-            }
-
-        }
-    );
-
-}
-
-
-/* =========================================================
-   MOBILE SIDEBAR
-========================================================= */
-
-function openMobileSidebar() {
-
-    sidebar.classList.add(
-        "mobile-open"
-    );
-
-
-    sidebarOverlay.classList.add(
-        "active"
-    );
-
-}
-
-
-function closeMobileSidebar() {
-
-    sidebar.classList.remove(
-        "mobile-open"
-    );
-
-
-    sidebarOverlay.classList.remove(
-        "active"
-    );
-
-}
-
-
-/* =========================================================
-   SAVE CHAT WHEN PAGE IS HIDDEN
-========================================================= */
-
-window.addEventListener(
-    "pagehide",
-    () => {
-
-        saveCurrentChat();
-
-    }
-);
-
-
-/* =========================================================
-   BEFORE UNLOAD
-========================================================= */
-
-window.addEventListener(
-    "beforeunload",
-    event => {
-
-        /*
-            Save chat before leaving.
-        */
-
-        saveCurrentChat();
-
-
-        /*
-            Warn the user while logged in.
-
-            Note:
-            Modern browsers may ignore the
-            custom text and display their own message.
-        */
-
-        if (currentUser) {
-
-            event.preventDefault();
-
-            event.returnValue = "";
-
-        }
-
-    }
-);
-
-
-/* =========================================================
-   GLOBAL ERROR HANDLING
-========================================================= */
-
-window.addEventListener(
-    "error",
-    event => {
-
-        console.error(
-            "CampusIQ JavaScript Error:",
-            event.error || event.message
-        );
-
-    }
-);
-
-
-window.addEventListener(
-    "unhandledrejection",
-    event => {
-
-        console.error(
-            "CampusIQ Promise Error:",
-            event.reason
-        );
-
-    }
-);
+</html>
